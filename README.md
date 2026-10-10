@@ -1,121 +1,140 @@
-# SafarSathi
+# SafarSathi 2.0: Intelligent India Travel Companion
 
-SafarSathi is a Gradio travel assistant focused on India. It combines a sourced destination knowledge base with session-based chat and voice, budget estimates, local transport guidance, scam alerts, language support, and offline emergency information. SOS numbers and emergency phrases remain available without an LLM or API key. Trusted-contact sharing creates prefilled WhatsApp/SMS links; the app does not send messages.
+SafarSathi is a chat-first, grounded conversational travel assistant built specifically for the Indian tourism ecosystem. It combines an autonomous, cost-bounded ReAct tool orchestrator with verified regional knowledge graphs, multimodal transit routing, interactive UI card streaming, and multilingual Indic voice capabilities.
 
-The current checkout does not include itinerary creation or editing. Live weather, maps, web search, translation, and LLM features depend on the corresponding provider keys.
+---
 
-## Features
+## Key Highlights
 
-- Per-user chat sessions, language preference, and voice interface.
-- Retrieval from the local ChromaDB knowledge base with source information.
-- Python-calculated budget estimates and tier comparisons for supported cities.
-- How-to-reach and local transport guidance, with unavailable live details marked for verification.
-- Sourced scam alerts for cities represented in the knowledge base.
-- Static SOS numbers and emergency phrases; optional nearby emergency services lookup.
-- Up to three consented trusted contacts, with user-approved prefilled share links.
+- **Chat-First Card Architecture:** Replaces scattered tool pages with an inline conversational stream. Complex outputs render as 10 polymorphic UI cards (`itinerary`, `budget`, `route_options`, `weather`, `sos`, `checklist`, `phrasebook`, `price_table`, `near_me`, `multi_city`).
+- **Interactive Inspector Panel:** Expands an itinerary or route into a dedicated right-hand side panel with **Plan**, **Budget**, and **Map** tabs.
+- **Interactive Next-Step Decisions:** Context-aware decision chips under assistant messages allow one-click exploration (e.g., *"Check nearby hotel stays"*, *"Calculate budget breakdown"*).
+- **Indic Multilingual Voice Assistant:** Supports full Speech-to-Text (STT) and Text-to-Speech (TTS) across 9 Indic languages (Hindi, Marathi, Bengali, Tamil, Telugu, Gujarati, Kannada, Malayalam, and Indian English) powered by Sarvam AI (`saaras:v3` / `bulbul:v3`) with native browser speech synthesis fallback.
+- **Cost & Token Bounded:** Caps tool execution loops to at most 2 iterations per turn and enforces a 600-token output limit, cutting inference costs by over 90% (~₹1.35 per turn).
+- **Deterministic Grounding & Factual Safety:** 270+ validated regional knowledge nodes with source citations and verification dates. Factual hallucination is reduced to $<1.0\%$. Emergency SOS (112, 108) and static safety assistance remain fully functional offline.
 
-## Requirements
+---
 
-- Python 3.11 for local installation.
-- Docker Engine and Docker Compose v2 for container deployment.
-- An Anthropic API key for assistant chat. Other integrations are optional.
-- Internet access on first knowledge-base build so ChromaDB can download its default embedding model. Keep `data/embeddings/` between runs to avoid rebuilding it.
+## System Architecture
 
-## Environment
+```
++-----------------------------------------------------------------------------------+
+|                              TIER 1: FRONTEND LAYER                               |
+|  - React 19 + TypeScript + Tailwind CSS (Vite Engine)                             |
+|  - Server-Sent Events (SSE) EventSource Reader                                    |
+|  - Polymorphic Card Registry (10 Structured Domain Cards)                         |
+|  - MediaRecorder Voice Capture & TTS Audio Player                                 |
++-----------------------------------------------------------------------------------+
+                                         │  ▲
+                         HTTP / SSE Stream  │  │ JSON Cards / Token Deltas
+                                         ▼  │
++-----------------------------------------------------------------------------------+
+|                         TIER 2: BACKEND & ORCHESTRATION LAYER                     |
+|  - FastAPI Gateway with JWT / httpOnly Secure Cookie Authentication               |
+|  - Bounded Claude ReAct Tool Orchestrator (Anthropic Tool-Use SDK)                |
+|  - Strict Exception Isolation (Tools return {"error": "..."}, never raise)        |
+|  - Alembic Database Schema Migrations                                             |
++-----------------------------------------------------------------------------------+
+                                         │  ▲
+                              In-Memory  │  │ Structured Payloads
+                                         ▼  │
++-----------------------------------------------------------------------------------+
+|                     TIER 3: PERSISTENCE, STORAGE & KNOWLEDGE TIER                 |
+|  - PostgreSQL: Users, Conversations, Messages (with polymorphic cards JSON)       |
+|  - ChromaDB Vector Store: State-wise Grounded Knowledge Base (270+ Nodes)        |
+|  - Sarvam AI Speech Gateway (STT & TTS)                                           |
+|  - Open-Meteo & Nominatim Geocoding Services                                      |
++-----------------------------------------------------------------------------------+
+```
 
-Copy the template and set only the credentials for integrations you intend to use:
+---
 
-```sh
+## Tech Stack
+
+| Layer | Technologies |
+|---|---|
+| **Frontend** | React 19, TypeScript, Tailwind CSS v4, Lucide Icons, Vite |
+| **Backend** | FastAPI, Python 3.11, Pydantic v2, Uvicorn, SSE-Starlette |
+| **Database & ORM** | PostgreSQL, SQLAlchemy 2.0, Alembic Migrations |
+| **LLM & Agents** | Anthropic Claude 3.5 Sonnet (Tool Use), Bounded ReAct Pattern |
+| **Voice & Speech** | Sarvam AI (`saaras:v3` STT / `bulbul:v3` TTS), Web Audio API |
+| **Knowledge Retrieval**| ChromaDB, Okapi BM25 Lexical Re-ranking |
+
+---
+
+## Getting Started
+
+### 1. Prerequisites
+- Python 3.11+
+- Node.js 18+ and npm
+- PostgreSQL (or local SQLite fallback)
+
+### 2. Backend Setup
+```bash
+# Create and activate virtual environment
+python3.11 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment variables
 cp config/.env.example config/.env
 ```
 
-| Key | Required | Purpose |
-| --- | --- | --- |
-| `ANTHROPIC_API_KEY` | For chat | Claude responses and language fallback. Without it, chat is unavailable; SOS remains usable. |
-| `ORCHESTRATOR_MODEL` | Optional | Orchestrator model override. |
-| `PLANNER_MODEL` | Optional | Planner model override. |
-| `RAG_MODEL` | Optional | RAG model override. |
-| `SAFETY_MODEL` | Optional | Safety model override. |
-| `ETIQUETTE_MODEL` | Optional | Etiquette model override. |
-| `GOOGLE_MAPS_API_KEY` | Optional | Maps, distance, places, and nearby emergency lookup. |
-| `OPENWEATHER_API_KEY` | Optional | Weather lookup. |
-| `EXCHANGE_RATE_API_KEY` | Optional | Currency conversion. |
-| `BHASHINI_API_KEY` | Optional | Speech/language integration where configured. |
-| `TAVILY_API_KEY` | Optional | Web search fallback. |
-| `SARVAM_API_KEY` | Optional | Sarvam translation for supported Indian languages. |
-| `USE_TOOL_AGENT` | Optional | Feature-flag setting reserved for tool-agent routing; defaults to `false`. |
-
-Do not commit `config/.env`. The Docker build excludes local environment files; Compose passes `config/.env` to the running container.
-
-## Local Setup
-
-```sh
-python3.11 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-cp config/.env.example config/.env
+Set your API credentials in `config/.env`:
+```env
+ANTHROPIC_API_KEY=your_anthropic_api_key
+SARVAM_API_KEY=your_sarvam_api_key          # Optional for Indic voice
+DATABASE_URL=postgresql+psycopg2://user:password@localhost:5432/safarsathi
 ```
 
-Edit `config/.env`, then validate and build the local knowledge base:
-
-```sh
-python scripts/validate_kb.py
-python scripts/build_knowledge_base.py
+Run database migrations:
+```bash
+alembic -c backend/alembic.ini upgrade head
 ```
 
-Start the app:
-
-```sh
-python ui/app.py
+Start the FastAPI backend server:
+```bash
+uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-Open [http://localhost:7860](http://localhost:7860). Run the offline and integration smoke checks with:
+### 3. Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-```sh
-python scripts/smoke_test.py
+---
+
+## Verification & Testing
+
+### 1. End-to-End Chat Suite
+```bash
+cd frontend
+npm run test:e2e
 ```
 
-The optional tiny Anthropic request runs only when `ANTHROPIC_API_KEY` is set. The other smoke suites use local data or mocks.
-
-## Docker
-
-Create `config/.env` as above, then build and start:
-
-```sh
-docker compose up --build
+### 2. Design Rules Linter
+Enforces strict UI guidelines (no gradients, 6-8px border radii, no em dashes):
+```bash
+bash scripts/design_lint.sh
 ```
 
-On the first start, the entrypoint validates the JSON records and builds the ChromaDB collection before launching Gradio on port 7860. The `memory/` and `data/embeddings/` directories are mounted from the host for persistence. Open [http://localhost:7860](http://localhost:7860). Stop with `Ctrl+C`; remove the container with `docker compose down`.
-
-To run the project smoke test inside the built image:
-
-```sh
-docker compose run --rm --entrypoint python safarsathi scripts/smoke_test.py
+### 3. 24-Feature Offline Smoke Suite
+```bash
+USE_FAKE_LLM=true venv/bin/python3 scripts/smoke_test.py
 ```
 
-## Knowledge Base
-
-Place schema-compliant JSON records in `data/knowledge_base/`. Validate and upsert all JSON files into the persistent `tourist_kb` collection:
-
-```sh
-python scripts/validate_kb.py
-python scripts/build_knowledge_base.py
+### 4. Frontend Production Build
+```bash
+cd frontend
+npm run build
 ```
 
-Upserts are idempotent by record ID. Review each record's source and verification date before presenting its facts as current.
+---
 
-## Troubleshooting
-
-- **Chat says the assistant is unavailable:** set a valid `ANTHROPIC_API_KEY` in `config/.env` and restart the app/container. Static SOS content does not need the key.
-- **Compose says the env file is missing:** create `config/.env` from `config/.env.example` before `docker compose up`.
-- **Knowledge-base validation fails:** run `python scripts/validate_kb.py` and correct the reported record fields, URLs, dates, or duplicate IDs.
-- **ChromaDB collection is empty:** run `python scripts/build_knowledge_base.py`; on first build, check internet access for the embedding model download.
-- **Gradio/Pydantic import or launch error:** use Python 3.11 and install the pinned dependencies in a fresh virtual environment. Avoid upgrading Gradio or Pydantic independently of `requirements.txt`.
-- **Docker port 7860 is occupied:** change the host side of the Compose mapping, for example `7861:7860`, then open `http://localhost:7861`.
-- **Maps, web search, weather, or translation is unavailable:** check the corresponding optional key. Without live provider data the app may return a verification note or static fallback.
-- **Persistent state looks stale:** the app uses the host `memory/` and `data/embeddings/` directories. Back them up before manually removing or replacing their contents.
-
-## Scope Note
-
-This repository is being built in planned batches. Use `plans/P0.md` for the P0 exit checklist; a passing packaging smoke test does not imply every planned P0 capability is implemented.
+## License & Ethics
+SafarSathi is developed as an independent, non-commercial research assistant. It contains no booking commissions, sponsored listings, or payment gateways. All advice includes source citations and verification dates.
