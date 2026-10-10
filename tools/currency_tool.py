@@ -8,7 +8,7 @@ from config.settings import EXCHANGE_RATE_API_KEY
 BASE_URL = "https://v6.exchangerate-api.com/v6"
 
 
-def convert_currency(amount: float, from_currency: str, to_currency: str) -> dict:
+def _convert_currency_uncached(amount: float, from_currency: str, to_currency: str) -> dict:
     """
     Returns {"converted_amount": float, "rate": float} on success,
     or {"error": "<short message>"} on failure. NEVER raises.
@@ -29,6 +29,15 @@ def convert_currency(amount: float, from_currency: str, to_currency: str) -> dic
     except Exception as e:
         print(f"Currency conversion failed: {e}")
         return {"error": str(e)}
+
+
+def convert_currency(amount: float, from_currency: str, to_currency: str) -> dict:
+    from memory.cache import cached_call
+
+    return cached_call(
+        "currency", [amount, from_currency.upper(), to_currency.upper()], 6 * 3600,
+        lambda: _convert_currency_uncached(amount, from_currency, to_currency),
+    )
 
 
 if __name__ == "__main__":

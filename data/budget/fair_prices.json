@@ -1,0 +1,84 @@
+{
+  "disclaimer": "All prices below are approximate (approx) planning references only. Actual prices vary by operator, season, time of day, and negotiation. Always confirm current fares with the driver/operator before travel. Last verified 2024-10.",
+  "last_verified": "2024-10",
+  "source_name": "India travel community references (Numbeo, Tripadvisor fare guides, government fare boards where available)",
+  "source_url": "https://www.numbeo.com/taxi-fare/country_result.jsp?country=India",
+  "cities": {
+    "Delhi": {
+      "auto_rickshaw": {"base_fare_inr": 25, "per_km_inr": 9.5, "notes": "Meter mandatory. AC autos now available. Surge applies via apps.", "approx": true},
+      "taxi_app": {"short_trip_4km_inr": 80, "medium_trip_12km_inr": 220, "notes": "Ola/Uber fares; surge pricing possible.", "approx": true},
+      "metro": {"per_trip_approx_inr": 30, "notes": "Token/card based. Very reliable. Max fare ~INR 60 for long routes.", "approx": true},
+      "meals": {
+        "street_food_thali": {"inr": 80, "notes": "Dal, roti, sabzi at a dhaba"},
+        "mid_range_restaurant": {"inr": 350, "notes": "Per person, main + drink"},
+        "budget_meal": {"inr": 50, "notes": "Chole bhature or samosa at street stall"}
+      }
+    },
+    "Mumbai": {
+      "auto_rickshaw": {"base_fare_inr": 21, "per_km_inr": 15, "notes": "Meter mandatory in suburbs (north of Bandra). Not permitted in south Mumbai.", "approx": true},
+      "taxi_app": {"short_trip_4km_inr": 100, "medium_trip_12km_inr": 280, "notes": "Black-and-yellow cabs use meter; app cabs surge.", "approx": true},
+      "local_train": {"per_trip_inr": 5, "notes": "Second class inter-station. Extremely affordable. First class 4x.", "approx": true},
+      "meals": {
+        "street_food": {"inr": 30, "notes": "Vada pav at roadside stall"},
+        "mid_range_restaurant": {"inr": 400, "notes": "Per person, coastal seafood or thali"},
+        "budget_meal": {"inr": 80, "notes": "Pav bhaji at stall"}
+      }
+    },
+    "Jaipur": {
+      "auto_rickshaw": {"base_fare_inr": 20, "per_km_inr": 12, "notes": "Autos often don't run meter — negotiate before boarding or use app.", "approx": true},
+      "taxi_app": {"short_trip_4km_inr": 80, "medium_trip_12km_inr": 200, "notes": "Ola available. Outstation taxis for day trips.", "approx": true},
+      "meals": {
+        "street_food": {"inr": 50, "notes": "Kachori at Rawat Mishthan Bhandar type shops"},
+        "mid_range_restaurant": {"inr": 300, "notes": "Rajasthani thali, dal baati churma"},
+        "budget_meal": {"inr": 80, "notes": "Dal baati at local dhaba"}
+      }
+    },
+    "Goa": {
+      "auto_rickshaw": {"base_fare_inr": 30, "per_km_inr": 15, "notes": "Autos are scarce in beach areas; taxi unions dominate. Negotiate.", "approx": true},
+      "taxi_app": {"short_trip_4km_inr": 150, "medium_trip_12km_inr": 350, "notes": "Goa taxis are expensive — no app-based Ola/Uber permitted on beaches. Fixed fares by taxi union.", "approx": true},
+      "scooter_rental": {"per_day_inr": 400, "notes": "Common for tourists. Ensure valid licence. Helmet mandatory.", "approx": true},
+      "meals": {
+        "beach_shack": {"inr": 250, "notes": "Goan fish thali at shack"},
+        "mid_range_restaurant": {"inr": 500, "notes": "Per person, seafood + beer"},
+        "budget_meal": {"inr": 80, "notes": "Fish curry rice at local eatery"}
+      }
+    },
+    "Varanasi": {
+      "auto_rickshaw": {"base_fare_inr": 20, "per_km_inr": 10, "notes": "Autos cannot reach ghat area; e-rickshaws cover narrow lanes.", "approx": true},
+      "boat_ride": {"ghat_row_inr": 200, "notes": "Per boat (not per person) for short ghat row. Sunrise Ganga ride 400-500 per boat. Negotiate firmly.", "approx": true},
+      "meals": {
+        "street_food": {"inr": 30, "notes": "Kachori sabzi at Kachori Gali"},
+        "mid_range_restaurant": {"inr": 250, "notes": "Thali at restaurant near ghats"},
+        "lassi": {"inr": 40, "notes": "Blue Lassi shop near Vishwanath Gali — famous tourist stop"}
+      }
+    },
+    "Kolkata": {
+      "auto_rickshaw": {"base_fare_inr": 15, "per_km_inr": 8, "notes": "Shared autos run on fixed routes. Yellow taxis also available with meters.", "approx": true},
+      "taxi_yellow": {"base_fare_inr": 30, "per_km_inr": 11, "notes": "Yellow Ambassador taxis use meter. Ola/Uber also available.", "approx": true},
+      "tram": {"per_trip_inr": 7, "notes": "One of last surviving tram networks in India. Scenic but slow.", "approx": true},
+      "meals": {
+        "street_food": {"inr": 30, "notes": "Puchka (pani puri) or kathi roll at street stall"},
+        "mid_range_restaurant": {"inr": 300, "notes": "Bengali thali or biryani"},
+        "budget_meal": {"inr": 60, "notes": "Kathi roll at Nizam's or similar"}
+      }
+    },
+    "Agra": {
+      "auto_rickshaw": {"base_fare_inr": 20, "per_km_inr": 10, "notes": "Negotiate firmly; touts near Taj quote high. E-rickshaws near Taj Mahal zone are environment-friendly.", "approx": true},
+      "taxi": {"full_day_inr": 1200, "notes": "Full day taxi for Taj + Agra Fort + Fatehpur Sikri (approx, verify).", "approx": true},
+      "meals": {
+        "street_food": {"inr": 50, "notes": "Petha (Agra specialty sweet)"},
+        "mid_range_restaurant": {"inr": 300, "notes": "Mughlai cuisine near Taj Ganj"},
+        "budget_meal": {"inr": 80, "notes": "Dhal chawal at dhaba"}
+      }
+    },
+    "Leh": {
+      "taxi": {"per_km_inr": 25, "notes": "Fixed government rate chart for Leh taxi union. No meters. Obtain rate card from tourist office.", "approx": true},
+      "shared_jeep": {"per_seat_inr": 300, "notes": "Shared jeep to Pangong/Nubra — per seat one way approx. Verify.", "approx": true},
+      "meals": {
+        "street_food": {"inr": 60, "notes": "Thukpa (noodle soup) or momos at local stall"},
+        "mid_range_restaurant": {"inr": 350, "notes": "Tibetan or Ladakhi meal at restaurant in Leh market"},
+        "budget_meal": {"inr": 80, "notes": "Dal rice at local dhaba"}
+      }
+    }
+  }
+}
