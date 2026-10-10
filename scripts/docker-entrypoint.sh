@@ -9,5 +9,10 @@ if [ ! -f data/embeddings/.kb-built ]; then
     python scripts/build_knowledge_base.py
     touch data/embeddings/.kb-built
 fi
+if [ "${LEGACY_GRADIO:-0}" = "1" ]; then
+    echo "Starting legacy Gradio UI..."
+    exec python ui/app.py
+fi
 
-exec python ui/app.py
+echo "Starting SafarSathi FastAPI 2.0 backend..."
+exec uvicorn backend.app.main:app --host 0.0.0.0 --port 7860

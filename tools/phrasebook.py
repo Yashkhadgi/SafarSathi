@@ -34,3 +34,18 @@ def emergency_phrase(language):
                 "audio_path": str(audio) if audio.is_file() else None}
     except Exception as exc:
         return {"error": f"Emergency phrase unavailable: {exc}"}
+
+
+def get_all_phrases():
+    try:
+        return json.loads(PHRASES_PATH.read_text(encoding="utf-8"))
+    except Exception as exc:
+        return {"error": str(exc)}
+
+
+def get_all_emergency_phrases():
+    try:
+        return json.loads(EMERGENCY_PATH.read_text(encoding="utf-8"))
+    except Exception as exc:
+        return {"error": str(exc)}
+
