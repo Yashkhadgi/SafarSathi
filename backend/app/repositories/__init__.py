@@ -1,0 +1,73 @@
+"""Repository Layer Package Exports."""
+
+from backend.app.repositories.user_repo import (
+    get_user_by_id,
+    get_user_by_email,
+    create_user,
+    ensure_user_exists,
+    delete_user,
+    record_login_event,
+    create_auth_session,
+    get_active_auth_session,
+    revoke_auth_session,
+    revoke_all_user_sessions,
+)
+from backend.app.repositories.chat_repo import (
+    create_conversation,
+    get_conversation,
+    list_conversations,
+    update_conversation_title,
+    delete_conversation,
+    save_message,
+    get_messages,
+    search_messages,
+)
+from backend.app.repositories.trip_repo import (
+    create_trip,
+    get_trip,
+    list_trips,
+    save_trip_version,
+    undo_trip_version,
+    delete_trip,
+)
+from backend.app.repositories.profile_repo import (
+    get_or_create_profile,
+    update_profile,
+    add_trusted_contact,
+    list_trusted_contacts,
+    delete_trusted_contact,
+    create_feedback,
+)
+
+__all__ = [
+    "get_user_by_id",
+    "get_user_by_email",
+    "create_user",
+    "ensure_user_exists",
+    "delete_user",
+    "record_login_event",
+    "create_auth_session",
+    "get_active_auth_session",
+    "revoke_auth_session",
+    "revoke_all_user_sessions",
+    "create_conversation",
+    "get_conversation",
+    "list_conversations",
+    "update_conversation_title",
+    "delete_conversation",
+    "save_message",
+    "get_messages",
+    "search_messages",
+    "create_trip",
+    "get_trip",
+    "list_trips",
+    "save_trip_version",
+    "undo_trip_version",
+    "delete_trip",
+    "get_or_create_profile",
+    "update_profile",
+    "add_trusted_contact",
+    "list_trusted_contacts",
+    "delete_trusted_contact",
+    "create_feedback",
+]
