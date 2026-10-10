@@ -1,0 +1,393 @@
+[
+  {
+    "id": "delhi_area_safety",
+    "place": "Delhi",
+    "state": "Delhi",
+    "category": "area_safety",
+    "text": "Delhi is generally safe for tourists in central and southern districts (Connaught Place, Karol Bagh, South Delhi markets) when precautions are followed. After dark, avoid isolated areas, particularly near railway stations. Use metro or app-based cabs at night. Women travelling alone should use the women-only metro coaches. Emergency: dial 112. Tourist police helpline: 1363. Keep copies of identity documents separately from originals.",
+    "source_name": "UK Foreign, Commonwealth & Development Office",
+    "source_url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "area_safety",
+      "women_safety",
+      "emergency"
+    ]
+  },
+  {
+    "id": "delhi_medical_help",
+    "place": "Delhi",
+    "state": "Delhi",
+    "category": "medical_first_aid",
+    "text": "For medical emergencies in Delhi dial 108 (ambulance) or 112. Major hospitals include AIIMS (All India Institute of Medical Sciences) on Ansari Nagar, Safdarjung Hospital on Ring Road, and Apollo Hospitals in Sarita Vihar. Pharmacies are widely available across the city. DISCLAIMER: This is general information only — consult a qualified doctor for diagnosis or treatment. Do not self-medicate. For emergencies call 108 or 112 immediately.",
+    "source_name": "National Health Mission India",
+    "source_url": "https://nhm.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "medical",
+      "hospital",
+      "emergency"
+    ]
+  },
+  {
+    "id": "delhi_lost_docs",
+    "place": "Delhi",
+    "state": "Delhi",
+    "category": "lost_docs",
+    "text": "If you lose your passport in Delhi, report to the nearest police station first and obtain an FIR (First Information Report). For Indian citizens, contact the nearest Passport Seva Kendra. Foreign nationals should contact their embassy or consulate immediately. Major foreign embassies are in the Chanakyapuri diplomatic enclave. For lost Aadhaar: visit uidai.gov.in or call 1947. For lost PAN: visit incometax.gov.in. Keep digital scans of all documents in cloud storage as a backup.",
+    "source_name": "Passport Seva, Ministry of External Affairs India",
+    "source_url": "https://www.passportindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "lost_docs",
+      "passport",
+      "emergency"
+    ]
+  },
+  {
+    "id": "mumbai_area_safety",
+    "place": "Mumbai",
+    "state": "Maharashtra",
+    "category": "area_safety",
+    "text": "Mumbai is one of India's safer large cities. Colaba, Bandra, Juhu and Marine Drive are tourist-friendly areas. Exercise caution around crowded railway stations (CST, Dadar) regarding pickpockets. The local train network is generally safe but very crowded at peak hours. Women-only train coaches are available. Avoid Dharavi and lesser-known suburban areas after dark. Emergency: 112. Mumbai Police helpline: 100.",
+    "source_name": "UK Foreign, Commonwealth & Development Office",
+    "source_url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "area_safety",
+      "women_safety",
+      "emergency"
+    ]
+  },
+  {
+    "id": "mumbai_medical_help",
+    "place": "Mumbai",
+    "state": "Maharashtra",
+    "category": "medical_first_aid",
+    "text": "For medical emergencies in Mumbai dial 108 (ambulance) or 112. Major hospitals: KEM Hospital in Parel, Sir JJ Hospital in Byculla, Lilavati Hospital in Bandra, Breach Candy Hospital in Breach Candy. Pharmacies operate 24 hours in major areas. DISCLAIMER: This is general information only — consult a qualified doctor for diagnosis or treatment. Do not self-medicate. For emergencies call 108 or 112 immediately.",
+    "source_name": "Maharashtra Government Health Department",
+    "source_url": "https://arogya.maharashtra.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "medical",
+      "hospital",
+      "emergency"
+    ]
+  },
+  {
+    "id": "mumbai_lost_docs",
+    "place": "Mumbai",
+    "state": "Maharashtra",
+    "category": "lost_docs",
+    "text": "For lost passport in Mumbai, first report to the nearest police station for an FIR. Indian citizens: visit Passport Seva Kendra in Worli or Andheri. Foreign nationals: contact your embassy; many are in Delhi but some have Mumbai consulates. For lost Aadhaar: uidai.gov.in or call 1947. For lost credit/debit cards: call your bank's 24-hour helpline immediately and block the card. For lost railway tickets: apply at PRS counter with ID proof. DISCLAIMER: Contact official authorities directly for current procedures.",
+    "source_name": "Passport Seva, Ministry of External Affairs India",
+    "source_url": "https://www.passportindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "lost_docs",
+      "passport",
+      "emergency"
+    ]
+  },
+  {
+    "id": "jaipur_area_safety",
+    "place": "Jaipur",
+    "state": "Rajasthan",
+    "category": "area_safety",
+    "text": "Jaipur is generally safe for tourists. The walled city (Pink City) and main bazaars are well-patrolled. Exercise caution around Johari Bazaar and near train/bus stations for pickpockets and commission touts who guide tourists to shops. Avoid unlit lanes near the old city after 10 PM. Use meter-based auto or app cabs. Emergency: 112. Rajasthan tourist helpline: 1364.",
+    "source_name": "UK Foreign, Commonwealth & Development Office",
+    "source_url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "area_safety",
+      "scams",
+      "emergency"
+    ]
+  },
+  {
+    "id": "jaipur_medical_help",
+    "place": "Jaipur",
+    "state": "Rajasthan",
+    "category": "medical_first_aid",
+    "text": "For medical emergencies in Jaipur dial 108 (ambulance) or 112. Major hospitals: SMS Hospital (Sawai Man Singh) on Tonk Road — largest government hospital in Rajasthan. Fortis Hospital in Malviya Nagar, Mahatma Gandhi Hospital in Sitapura. Many pharmacies near SMS Hospital and MI Road. DISCLAIMER: This is general information only — consult a qualified doctor for diagnosis or treatment. Do not self-medicate. For emergencies call 108 or 112 immediately.",
+    "source_name": "Rajasthan Medical Health & Family Welfare Department",
+    "source_url": "https://rajswasthya.nic.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "medical",
+      "hospital",
+      "emergency"
+    ]
+  },
+  {
+    "id": "jaipur_lost_docs",
+    "place": "Jaipur",
+    "state": "Rajasthan",
+    "category": "lost_docs",
+    "text": "For lost passport in Jaipur, file an FIR at the nearest police station. Indian citizens: visit Passport Seva Kendra, Jaipur (Sahkar Marg, Laxmi Nagar). Foreign nationals: contact your nearest embassy/consulate; Delhi embassies may need to be contacted. For lost Aadhaar: uidai.gov.in or call 1947. Rajasthan tourist helpline (1364) can also assist with guidance. Keep digital copies of all IDs stored securely online.",
+    "source_name": "Passport Seva, Ministry of External Affairs India",
+    "source_url": "https://www.passportindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "lost_docs",
+      "passport",
+      "emergency"
+    ]
+  },
+  {
+    "id": "goa_area_safety",
+    "place": "Goa",
+    "state": "Goa",
+    "category": "area_safety",
+    "text": "Goa is generally tourist-friendly but exercise caution on beaches at night. Incidents of theft from bags on beaches have been reported. Avoid deserted beaches after dark. The beach road areas around Calangute and Anjuna can get rowdy late at night. Women should not go to isolated beaches alone after sunset. Use licensed taxis. Emergency: 112. Goa Tourist Police: 0832-2425736.",
+    "source_name": "UK Foreign, Commonwealth & Development Office",
+    "source_url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "area_safety",
+      "beach_safety",
+      "women_safety",
+      "emergency"
+    ]
+  },
+  {
+    "id": "goa_medical_help",
+    "place": "Goa",
+    "state": "Goa",
+    "category": "medical_first_aid",
+    "text": "For medical emergencies in Goa dial 108 (ambulance) or 112. Major hospitals: Goa Medical College & Hospital in Panaji (government), Manipal Hospital in Panaji (private), Apollo Victor Hospital in Margao. Pharmacies are available in Panaji, Mapusa, Margao, and major beach towns. DISCLAIMER: This is general information only — consult a qualified doctor for diagnosis or treatment. Do not self-medicate. For water-related emergencies (drowning), call 112 immediately. Lifeguards operate on major beaches during daylight hours.",
+    "source_name": "Directorate of Health Services, Goa",
+    "source_url": "https://www.dhsgoa.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "medical",
+      "hospital",
+      "emergency",
+      "beach_safety"
+    ]
+  },
+  {
+    "id": "goa_lost_docs",
+    "place": "Goa",
+    "state": "Goa",
+    "category": "lost_docs",
+    "text": "For lost passport in Goa, report to the nearest police station for an FIR. Indian citizens: Passport Seva Kendra is in Panaji. Foreign nationals: proceed to the nearest consulate; some European consulates are in Goa. For lost Aadhaar: uidai.gov.in or call 1947. For lost credit cards: call bank immediately. For lost airline ticket: contact airline directly — e-tickets can usually be reprinted. Goa Tourist Police can also provide initial guidance.",
+    "source_name": "Passport Seva, Ministry of External Affairs India",
+    "source_url": "https://www.passportindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "lost_docs",
+      "passport",
+      "emergency"
+    ]
+  },
+  {
+    "id": "varanasi_area_safety",
+    "place": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": "area_safety",
+    "text": "Varanasi is generally safe for pilgrims and tourists but the narrow lanes of the old city (ghats area) can be disorienting. Commission touts and guides near ghats can be persistent. Exercise caution with your belongings in crowded areas. At cremation ghats like Manikarnika, do not photograph without permission — it is deeply disrespectful and can cause confrontations. Emergency: 112. UP Tourist Police helpline: 1800-180-5522.",
+    "source_name": "UK Foreign, Commonwealth & Development Office",
+    "source_url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "area_safety",
+      "pilgrimage_safety",
+      "emergency"
+    ]
+  },
+  {
+    "id": "varanasi_medical_help",
+    "place": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": "medical_first_aid",
+    "text": "For medical emergencies in Varanasi dial 108 (ambulance) or 112. Major hospitals: BHU Institute of Medical Sciences (Sir Sunderlal Hospital) at BHU Campus, Heritage Hospital on Lanka, Shubham Hospital in Sigra. Pharmacies are concentrated near Godaulia crossing and near BHU campus. DISCLAIMER: This is general information only — consult a qualified doctor for diagnosis or treatment. Do not self-medicate. Avoid drinking unfiltered river water. For emergencies call 108 or 112 immediately.",
+    "source_name": "National Health Mission India",
+    "source_url": "https://nhm.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "medical",
+      "hospital",
+      "emergency"
+    ]
+  },
+  {
+    "id": "varanasi_lost_docs",
+    "place": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": "lost_docs",
+    "text": "For lost documents in Varanasi, go to the nearest police station for an FIR. Indian citizens: Passport Seva Kendra is in Varanasi on Sigra Road. Foreign nationals: typically must contact Delhi embassies but can get initial guidance from local police. Varanasi has many temples — be extra careful with valuables at ghats and crowded temple areas. For lost Aadhaar: uidai.gov.in or call 1947. Keep photocopies and digital scans of all documents before travel.",
+    "source_name": "Passport Seva, Ministry of External Affairs India",
+    "source_url": "https://www.passportindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "lost_docs",
+      "passport",
+      "emergency"
+    ]
+  },
+  {
+    "id": "agra_area_safety",
+    "place": "Agra",
+    "state": "Uttar Pradesh",
+    "category": "area_safety",
+    "text": "Agra is safe in the main tourist zones (Taj Mahal, Agra Fort, Fatehpur Sikri). Exercise caution regarding commission touts near the Taj who claim official tickets are sold out and try to lead you to shops. The area around Agra Cantt railway station has pickpockets — keep bags secured. At night, stick to main roads around Sadar and Fatehabad areas. Emergency: 112. UP Tourist Police helpline: 1800-180-5522.",
+    "source_name": "UK Foreign, Commonwealth & Development Office",
+    "source_url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "area_safety",
+      "scams",
+      "emergency"
+    ]
+  },
+  {
+    "id": "agra_medical_help",
+    "place": "Agra",
+    "state": "Uttar Pradesh",
+    "category": "medical_first_aid",
+    "text": "For medical emergencies in Agra dial 108 (ambulance) or 112. Major hospitals: SN Medical College & Hospital (government, Mahatma Gandhi Rd), Pushpanjali Hospital in Sikandra, Kailash Hospital in Vijay Nagar. DISCLAIMER: This is general information only — consult a qualified doctor for diagnosis or treatment. Do not self-medicate. If you experience heat stroke near monuments (common in summer), seek shade immediately, hydrate, and call 108. For emergencies call 108 or 112 immediately.",
+    "source_name": "National Health Mission India",
+    "source_url": "https://nhm.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "medical",
+      "hospital",
+      "emergency",
+      "heat"
+    ]
+  },
+  {
+    "id": "agra_lost_docs",
+    "place": "Agra",
+    "state": "Uttar Pradesh",
+    "category": "lost_docs",
+    "text": "For lost documents in Agra, report to the nearest police station for an FIR. Indian citizens: Passport Seva Kendra Agra is on Kamla Nagar. For lost Aadhaar: uidai.gov.in or 1947. Foreign nationals must typically contact Delhi consulates/embassies. Agra Tourist Police near the East Gate of Taj Mahal can also provide initial assistance. Keep photocopies of ID and visa in your hotel safe.",
+    "source_name": "Passport Seva, Ministry of External Affairs India",
+    "source_url": "https://www.passportindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "lost_docs",
+      "passport",
+      "emergency"
+    ]
+  },
+  {
+    "id": "leh_area_safety",
+    "place": "Leh",
+    "state": "Ladakh",
+    "category": "area_safety",
+    "text": "Leh (altitude ~3,524m) requires special safety awareness. Altitude sickness (AMS) is a serious risk — rest for 2-3 days on arrival, avoid exertion, drink fluids, and do not ascend quickly. Main town Leh is safe for tourists. Road conditions to Pangong, Nubra Valley, and Khardung La can be hazardous in bad weather. Always carry a registered Inner Line Permit (ILP) for restricted areas. Emergency: 112. DRDO altitude sickness centre in Leh provides free consultation.",
+    "source_name": "UK Foreign, Commonwealth & Development Office",
+    "source_url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "area_safety",
+      "altitude",
+      "AMS",
+      "emergency"
+    ]
+  },
+  {
+    "id": "leh_medical_help",
+    "place": "Leh",
+    "state": "Ladakh",
+    "category": "medical_first_aid",
+    "text": "For medical emergencies in Leh dial 108 (ambulance) or 112. Major facility: SNM District Hospital, Leh (main government hospital). DRDO High Altitude Research Institute offers altitude sickness consultation. For altitude sickness (AMS), the standard guidance is to descend immediately if symptoms are severe — do not ascend further. DISCLAIMER: This is general information only — consult a qualified doctor for diagnosis or treatment. Never take medication for altitude sickness without medical advice. For emergencies call 108 or 112 immediately.",
+    "source_name": "National Health Mission India",
+    "source_url": "https://nhm.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "medical",
+      "hospital",
+      "altitude",
+      "AMS",
+      "emergency"
+    ]
+  },
+  {
+    "id": "leh_lost_docs",
+    "place": "Leh",
+    "state": "Ladakh",
+    "category": "lost_docs",
+    "text": "For lost documents in Leh, report to Leh Police Station (near polo ground). Nearest Passport Seva Kendra is in Jammu. Inner Line Permits (ILP), if lost, must be re-applied at the DC Office Leh. Foreign nationals should contact Delhi embassies. Mobile connectivity is limited in remote areas — keep offline copies of all permits and documents. For lost Aadhaar: uidai.gov.in or 1947 (when connectivity allows).",
+    "source_name": "Passport Seva, Ministry of External Affairs India",
+    "source_url": "https://www.passportindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "lost_docs",
+      "passport",
+      "ILP",
+      "emergency"
+    ]
+  },
+  {
+    "id": "kolkata_area_safety",
+    "place": "Kolkata",
+    "state": "West Bengal",
+    "category": "area_safety",
+    "text": "Kolkata is considered one of India's safer large cities. Central areas (Park Street, Esplanade, Victoria Memorial vicinity) are well-lit and generally safe. Exercise caution at night in older parts of the city and around Howrah Station. Yellow taxis and metro are reliable. Women travelling alone should exercise standard caution after dark. Emergency: 112. Kolkata Police helpline: 100.",
+    "source_name": "UK Foreign, Commonwealth & Development Office",
+    "source_url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "area_safety",
+      "women_safety",
+      "emergency"
+    ]
+  },
+  {
+    "id": "kolkata_medical_help",
+    "place": "Kolkata",
+    "state": "West Bengal",
+    "category": "medical_first_aid",
+    "text": "For medical emergencies in Kolkata dial 108 (ambulance) or 112. Major hospitals: SSKM (PG Hospital) on AJC Bose Rd, Apollo Gleneagles in Canal Circular Rd, Medica Superspecialty on Mukundapur. DISCLAIMER: This is general information only — consult a qualified doctor for diagnosis or treatment. Do not self-medicate. For emergencies call 108 or 112 immediately.",
+    "source_name": "West Bengal Health Department",
+    "source_url": "https://www.wbhealth.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "medical",
+      "hospital",
+      "emergency"
+    ]
+  },
+  {
+    "id": "kolkata_lost_docs",
+    "place": "Kolkata",
+    "state": "West Bengal",
+    "category": "lost_docs",
+    "text": "For lost passport in Kolkata, file an FIR at nearest police station. Indian citizens: Regional Passport Office Kolkata, 234 Acharya Jagadish Chandra Bose Rd. Foreign nationals: Kolkata has consulates for several countries including USA (5/1 Ho Chi Minh Sarani), UK (1A Ho Chi Minh Sarani), and others. For lost Aadhaar: uidai.gov.in or call 1947.",
+    "source_name": "Passport Seva, Ministry of External Affairs India",
+    "source_url": "https://www.passportindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "lost_docs",
+      "passport",
+      "emergency"
+    ]
+  }
+]
