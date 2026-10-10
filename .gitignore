@@ -27,3 +27,10 @@ memory/safarsathi_v2.db
 memory/live_audio/
 *.db
 *.sqlite3
+
+# Local Research Paper Notes & Planning Docs
+researchpaper_requirements/
+researchpaper_requirements.zip
+plans/
+*.zip
+
