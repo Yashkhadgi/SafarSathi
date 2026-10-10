@@ -1,0 +1,273 @@
+[
+  {
+    "id": "delhi_train_bus",
+    "place": "Delhi",
+    "state": "Delhi",
+    "category": "train_bus_routes",
+    "text": "Delhi is a major rail hub. New Delhi Railway Station (NDLS) and Hazrat Nizamuddin (NZM) serve most long-distance trains. Key routes: Delhi to Agra — Gatimaan Express (~1.5 hrs, approx); Shatabdi Express (~2 hrs). Delhi to Jaipur — Pink City Express or Ajmer Shatabdi (~4-5 hrs). Delhi to Varanasi — Rajdhani or Humsafar Express overnight (~10-12 hrs). Delhi to Mumbai — Rajdhani (~16 hrs overnight). For buses, ISBT Kashmere Gate is the main interstate bus terminal for north India routes. DISCLAIMER: All timings are approximate — verify on IRCTC par verify karein (irctc.co.in) or official bus websites before travel.",
+    "source_name": "Indian Railways / IRCTC",
+    "source_url": "https://www.irctc.co.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "transport",
+      "train",
+      "bus",
+      "hub"
+    ]
+  },
+  {
+    "id": "mumbai_train_bus",
+    "place": "Mumbai",
+    "state": "Maharashtra",
+    "category": "train_bus_routes",
+    "text": "Mumbai's rail hub is Chhatrapati Shivaji Maharaj Terminus (CSMT) for long-distance trains and Bandra Terminus (BDTS) for western/central routes. Key routes: Mumbai to Goa — Konkan Railway (approx 8-10 hrs on Mandovi/Jan Shatabdi). Mumbai to Pune — Deccan Express or Shatabdi (~3.5 hrs). Mumbai to Delhi — overnight Rajdhani (~16 hrs). MSRTC buses from Dadar and Mumbai Central serve Pune, Nashik, Aurangabad. DISCLAIMER: All timings approximate — IRCTC par verify karein (irctc.co.in).",
+    "source_name": "Indian Railways / IRCTC",
+    "source_url": "https://www.irctc.co.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "transport",
+      "train",
+      "bus",
+      "hub"
+    ]
+  },
+  {
+    "id": "jaipur_train_bus",
+    "place": "Jaipur",
+    "state": "Rajasthan",
+    "category": "train_bus_routes",
+    "text": "Jaipur Junction (JP) is the main station. Key routes: Jaipur to Delhi — Shatabdi Express (~4.5 hrs), Pink City Express. Jaipur to Agra — Express trains (~3-4 hrs). Jaipur to Jodhpur — Intercity Express (~5-6 hrs). Jaipur to Udaipur — Mewar Express or bus (~5-6 hrs). RSRTC buses from Sindhi Camp Bus Stand serve major Rajasthan cities and Delhi. DISCLAIMER: Timings approximate — IRCTC par verify karein (irctc.co.in).",
+    "source_name": "Indian Railways / IRCTC",
+    "source_url": "https://www.irctc.co.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "transport",
+      "train",
+      "bus",
+      "rajasthan"
+    ]
+  },
+  {
+    "id": "goa_train_bus",
+    "place": "Goa",
+    "state": "Goa",
+    "category": "train_bus_routes",
+    "text": "Goa has two main railway stations: Madgaon (Margao) in South Goa and Thivim in North Goa. Both are on the Konkan Railway line. Key routes: Goa to Mumbai — Mandovi Express or Tejas Rajdhani (~8-10 hrs). Goa to Bangalore — Rajya Rani or Vivek Express (~9-10 hrs). Kadamba Transport (KTC) buses connect North and South Goa; private luxury buses operate to Mumbai, Pune, Bangalore. DISCLAIMER: Timings approximate — IRCTC par verify karein (irctc.co.in).",
+    "source_name": "Indian Railways / IRCTC",
+    "source_url": "https://www.irctc.co.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "transport",
+      "train",
+      "bus",
+      "konkan"
+    ]
+  },
+  {
+    "id": "varanasi_train_bus",
+    "place": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": "train_bus_routes",
+    "text": "Varanasi Junction (BSB) is the main railway station. Key routes: Varanasi to Delhi — Shiv Ganga Express (~12 hrs) or Vande Bharat (~8 hrs approx). Varanasi to Prayagraj — approx 1.5-2 hrs by train. Varanasi to Kolkata — Vibhuti Express or Poorva Express (~12-14 hrs overnight). UP State Road Transport (UPSRTC) buses from Varanasi to Lucknow (~3 hrs), Ayodhya, Allahabad. DISCLAIMER: Timings approximate — IRCTC par verify karein (irctc.co.in).",
+    "source_name": "Indian Railways / IRCTC",
+    "source_url": "https://www.irctc.co.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "transport",
+      "train",
+      "bus",
+      "pilgrimage"
+    ]
+  },
+  {
+    "id": "kolkata_train_bus",
+    "place": "Kolkata",
+    "state": "West Bengal",
+    "category": "train_bus_routes",
+    "text": "Howrah Junction (HWH) and Sealdah (SDAH) are Kolkata's two major rail hubs. Key routes: Kolkata to Delhi — Rajdhani Express (~17 hrs). Kolkata to Varanasi — Vibhuti/Poorva Express (~14 hrs). Kolkata to Darjeeling — via New Jalpaiguri (NJP) by train (~8-10 hrs), then Toy Train or jeep. Kolkata to Puri — Jagannath Express (~8 hrs). WBTC and private buses cover northeast and inter-state routes. DISCLAIMER: Timings approximate — IRCTC par verify karein (irctc.co.in).",
+    "source_name": "Indian Railways / IRCTC",
+    "source_url": "https://www.irctc.co.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "transport",
+      "train",
+      "bus",
+      "hub"
+    ]
+  },
+  {
+    "id": "agra_train_bus",
+    "place": "Agra",
+    "state": "Uttar Pradesh",
+    "category": "train_bus_routes",
+    "text": "Agra Cantt (AGC) is the main station. Key routes: Agra to Delhi — Gatimaan Express (~1.5 hrs, fastest), Shatabdi (~2 hrs). Agra to Jaipur — Intercity Express (~3-4 hrs). Agra to Varanasi — overnight trains (~10-12 hrs). Agra to Gwalior — ~1.5 hrs. UPSRTC buses from Agra ISBT serve Delhi, Jaipur, Gwalior. DISCLAIMER: Timings approximate — IRCTC par verify karein (irctc.co.in).",
+    "source_name": "Indian Railways / IRCTC",
+    "source_url": "https://www.irctc.co.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "transport",
+      "train",
+      "bus",
+      "golden_triangle"
+    ]
+  },
+  {
+    "id": "leh_bus",
+    "place": "Leh",
+    "state": "Ladakh",
+    "category": "train_bus_routes",
+    "text": "Leh has no railway connection. Options: (1) Fly — Kushok Bakula Rimpochhe Airport (IXL) connects to Delhi (~1.5 hr flight). (2) Manali-Leh highway (HRTC bus or shared jeep, ~20-22 hrs, open approx June-October, weather permitting). (3) Srinagar-Leh highway (~9-10 hrs by road, weather-dependent). HRTC government buses run Manali-Leh in summer. No rail connection exists as of 2024. DISCLAIMER: Road conditions and seasonal closures vary significantly — verify before travel.",
+    "source_name": "Himachal Road Transport Corporation",
+    "source_url": "https://www.hrtchp.com/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "transport",
+      "bus",
+      "flight",
+      "mountain",
+      "ladakh"
+    ]
+  },
+  {
+    "id": "delhi_stay_areas",
+    "place": "Delhi",
+    "state": "Delhi",
+    "category": "stay_areas",
+    "text": "Accommodation zones in Delhi by traveler type: Budget/Backpackers — Paharganj (Main Bazaar area near New Delhi station) has dense hostels and budget hotels. Mid-range — Karol Bagh offers good mid-range hotels with metro access. Premium/Business — Connaught Place, Aerocity (near IGI Airport), and South Delhi (Saket, Hauz Khas). Boutique — Hauz Khas Village for design hotels. For pilgrims — Nizamuddin area for Dargah visitors. Families — Vasant Kunj, South Extension. Safety note: Paharganj is noisy and busy; budget travelers should store valuables securely.",
+    "source_name": "Incredible India",
+    "source_url": "https://www.incredibleindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "stay",
+      "accommodation",
+      "area_guide"
+    ]
+  },
+  {
+    "id": "mumbai_stay_areas",
+    "place": "Mumbai",
+    "state": "Maharashtra",
+    "category": "stay_areas",
+    "text": "Mumbai accommodation zones: Budget/Backpackers — Colaba (near Gateway of India) has hostels and cheap guesthouses, very central but expensive for its category. Mid-range — Bandra West offers good mid-range with cafes and restaurants. Premium — Marine Drive, Juhu (near airport and beach), Worli. Business — BKC (Bandra-Kurla Complex) and Andheri East (near airport). For transit/overnight — Andheri West or Santacruz near CST. Families — Juhu area with beach access.",
+    "source_name": "Incredible India",
+    "source_url": "https://www.incredibleindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "stay",
+      "accommodation",
+      "area_guide"
+    ]
+  },
+  {
+    "id": "jaipur_stay_areas",
+    "place": "Jaipur",
+    "state": "Rajasthan",
+    "category": "stay_areas",
+    "text": "Jaipur accommodation zones: Budget — Hathroi Fort area and near Sindhi Camp has budget options. Mid-range — C-Scheme and Bani Park have good mid-range hotels. Heritage/Boutique — Walled city (old Pink City area) has haveli hotels. Premium — Civil Lines, Rambagh area has luxury palace hotels (e.g., Rambagh Palace). Backpackers — Johari Bazaar area has guesthouses. For families — Tonk Road corridor. Note: Staying inside walled city gives walkable access to bazaars and Pink City heritage.",
+    "source_name": "Rajasthan Tourism",
+    "source_url": "https://www.tourism.rajasthan.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "stay",
+      "accommodation",
+      "area_guide",
+      "heritage"
+    ]
+  },
+  {
+    "id": "goa_stay_areas",
+    "place": "Goa",
+    "state": "Goa",
+    "category": "stay_areas",
+    "text": "Goa accommodation zones: Budget/Backpackers — Arambol (North) and Palolem (South) are popular for cheap beach huts and hostels. Mid-range — Calangute and Candolim in North Goa. Premium — Sinquerim (near Fort Aguada), Vagator, and Morjim for boutique and luxury options. Family-friendly — Benaulim and Colva in South Goa are quieter. Party/Nightlife — Baga and Anjuna. Heritage — Old Goa area (near churches). Note: South Goa is generally calmer and cleaner than North Goa.",
+    "source_name": "Goa Tourism",
+    "source_url": "https://www.goa-tourism.com/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "stay",
+      "accommodation",
+      "area_guide",
+      "beach"
+    ]
+  },
+  {
+    "id": "varanasi_stay_areas",
+    "place": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": "stay_areas",
+    "text": "Varanasi accommodation zones: Spiritual/Pilgrims — Ashrams near ghats (Assi Ghat, Dashashwamedh Ghat) offer budget stays. Budget — Godaulia area (old city near ghats) has narrow-lane guesthouses with ghat views. Mid-range — Nadesar Palace area, Cantonment road. Premium — Nadesar Palace (heritage), Taj Ganges in Nadesar. Backpackers — Assi Ghat has vibrant yoga/cafe culture with budget guesthouses. Note: Ghat-facing rooms can be noisy (aarti, pilgrims) — plan accordingly.",
+    "source_name": "Incredible India",
+    "source_url": "https://www.incredibleindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "stay",
+      "accommodation",
+      "area_guide",
+      "pilgrimage"
+    ]
+  },
+  {
+    "id": "kolkata_stay_areas",
+    "place": "Kolkata",
+    "state": "West Bengal",
+    "category": "stay_areas",
+    "text": "Kolkata accommodation zones: Budget — Sudder Street (near Park Street metro) is a classic backpacker hub. Mid-range — Park Street and Camac Street area. Business/Premium — Salt Lake City (Sector V for IT corridor), Park Circus. Boutique — Heritage hotels in Ballygunge or around Park Hotel. Family — Alipore or Deshapriya Park area. Transit — Howrah or Sealdah areas for those catching early trains (basic hotels, less comfortable). Note: Kolkata is a relatively affordable city — mid-range budgets get good value.",
+    "source_name": "West Bengal Tourism",
+    "source_url": "https://www.wbtourism.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "stay",
+      "accommodation",
+      "area_guide"
+    ]
+  },
+  {
+    "id": "agra_stay_areas",
+    "place": "Agra",
+    "state": "Uttar Pradesh",
+    "category": "stay_areas",
+    "text": "Agra accommodation zones: Budget — Taj Ganj area (walking distance to Taj Mahal, rooftop restaurants with Taj views). Mid-range — Fatehabad Road has a large cluster of mid-range hotels. Premium — Oberoi Amarvilas (opposite Taj East gate — direct Taj view from room), ITC Mughal. Backpackers — Taj Ganj hostels. Families — Fatehabad Road cluster offers good family hotels with pools. Safety note: Touts near Taj Ganj can be persistent — identify your hotel in advance and book directly or via reputable platform.",
+    "source_name": "UP Tourism",
+    "source_url": "https://uptourism.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "stay",
+      "accommodation",
+      "area_guide",
+      "golden_triangle"
+    ]
+  },
+  {
+    "id": "leh_stay_areas",
+    "place": "Leh",
+    "state": "Ladakh",
+    "category": "stay_areas",
+    "text": "Leh accommodation zones: Budget — Local guesthouses in old town Leh and near the market area. Mid-range — Fort Road and Changspa Lane areas. Premium — The Grand Dragon (main town), Chamba Camp near Thiksey (luxury tented). Backpackers — Changspa and Fort Road hostels. For village stays — Nimmu, Alchi, Hemis villages have homestays offering authentic Ladakhi experience. Note: Altitude sickness affects comfort regardless of accommodation tier — factor in acclimatization days when planning your stay duration.",
+    "source_name": "Incredible India",
+    "source_url": "https://www.incredibleindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "stay",
+      "accommodation",
+      "area_guide",
+      "altitude",
+      "homestay"
+    ]
+  }
+]
