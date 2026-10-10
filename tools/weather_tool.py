@@ -8,7 +8,7 @@ from config.settings import OPENWEATHER_API_KEY
 BASE_URL = "https://api.openweathermap.org/data/2.5/forecast"
 
 
-def get_forecast(place_name: str, days: int = 3):
+def _get_forecast_uncached(place_name: str, days: int = 3):
     try:
         if not OPENWEATHER_API_KEY:
             raise ValueError("OPENWEATHER_API_KEY not set in .env")
@@ -40,6 +40,15 @@ def get_forecast(place_name: str, days: int = 3):
     except Exception as e:
         print(f"Weather lookup failed: {e}")
         return []
+
+
+def get_forecast(place_name: str, days: int = 3):
+    from memory.cache import cached_call
+
+    return cached_call(
+        "weather", [place_name, days], 3600,
+        lambda: _get_forecast_uncached(place_name, days),
+    )
 
 
 if __name__ == "__main__":
