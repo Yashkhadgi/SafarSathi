@@ -245,6 +245,58 @@ def login(req: LoginRequest, request: Request, response: Response, db: Session =
     }
 
 
+@router.post("/demo-login")
+def demo_login(request: Request, response: Response, db: Session = Depends(get_db)):
+    """Instant login for demonstration and research evaluation without requiring signup."""
+    demo_email = "demo@safarsathi.in"
+    demo_pass = "DemoExplorer2026!"
+
+    user = get_user_by_email(db, demo_email)
+    if not user:
+        hashed_pw = hash_password(demo_pass)
+        user = create_user(db, email=demo_email, password_hash=hashed_pw, is_verified=True)
+        profile = get_or_create_profile(db, user.id)
+        profile.home_city = "Nagpur"
+        profile.travel_style = "balanced"
+        profile.budget_range = "mid"
+        profile.diet_preference = "veg"
+        db.commit()
+    else:
+        if not user.is_verified:
+            user.is_verified = True
+            db.commit()
+
+    ip = request.client.host if request.client else "127.0.0.1"
+    user_agent = request.headers.get("User-Agent", "Demo Session")
+
+    access_token = create_access_token(user.id, user.email, is_admin=False, expires_in_minutes=60)
+    raw_refresh = generate_random_token(32)
+    refresh_expires = datetime.now(timezone.utc) + timedelta(days=30)
+
+    create_auth_session(
+        db,
+        user_id=user.id,
+        refresh_token=raw_refresh,
+        expires_at=refresh_expires,
+        user_agent=user_agent[:512],
+        ip_address=ip[:45],
+        device_label="Demo Mode Session",
+    )
+    db.commit()
+
+    _set_auth_cookies(response, access_token, raw_refresh)
+
+    return {
+        "user": {
+            "id": user.id,
+            "email": user.email,
+            "is_verified": user.is_verified,
+            "is_admin": user.is_admin,
+        },
+        "message": "Demo mode active. Logged in as demo traveler.",
+    }
+
+
 @router.post("/refresh")
 def refresh_session(
     request: Request,

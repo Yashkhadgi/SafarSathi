@@ -9,7 +9,8 @@ export const LoginPage: React.FC = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
-  const { login } = useAuth();
+  const [demoLoading, setDemoLoading] = useState(false);
+  const { login, loginAsDemo } = useAuth();
   const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -32,6 +33,23 @@ export const LoginPage: React.FC = () => {
       }
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleDemoLogin = async () => {
+    setError(null);
+    setDemoLoading(true);
+    try {
+      await loginAsDemo();
+      navigate('/app');
+    } catch (err) {
+      if (err instanceof ApiError) {
+        setError(err.data.detail || 'Could not access demo account.');
+      } else {
+        setError('Unexpected error accessing demo mode.');
+      }
+    } finally {
+      setDemoLoading(false);
     }
   };
 
@@ -93,7 +111,7 @@ export const LoginPage: React.FC = () => {
 
           <button
             type="submit"
-            disabled={loading}
+            disabled={loading || demoLoading}
             className="w-full py-2.5 px-4 rounded-md bg-brand-600 hover:bg-brand-700 disabled:bg-slate-800 disabled:text-slate-500 text-white font-medium text-sm flex items-center justify-center gap-2 transition-colors cursor-pointer"
           >
             {loading ? (
@@ -106,6 +124,31 @@ export const LoginPage: React.FC = () => {
             )}
           </button>
         </form>
+
+        <div className="relative my-5">
+          <div className="absolute inset-0 flex items-center">
+            <div className="w-full border-t border-slate-800" />
+          </div>
+          <div className="relative flex justify-center text-xs uppercase">
+            <span className="bg-slate-900 px-2 text-slate-500">Quick Testing</span>
+          </div>
+        </div>
+
+        <button
+          type="button"
+          onClick={handleDemoLogin}
+          disabled={loading || demoLoading}
+          className="w-full py-2.5 px-4 rounded-md bg-slate-800 hover:bg-slate-700 disabled:opacity-50 text-slate-100 font-medium text-sm flex items-center justify-center gap-2 transition-colors cursor-pointer border border-slate-700"
+        >
+          {demoLoading ? (
+            <>
+              <Loader2 className="w-4 h-4 animate-spin" />
+              <span>Entering Demo Mode...</span>
+            </>
+          ) : (
+            <span>Explore as Demo Traveler (1-Click)</span>
+          )}
+        </button>
 
         <div className="mt-6 pt-6 border-t border-slate-800 text-center text-xs text-slate-400">
           <span>Do not have an account? </span>

@@ -27,6 +27,7 @@ interface AuthContextType {
   user: User | null;
   loading: boolean;
   login: (email: string, password: string) => Promise<void>;
+  loginAsDemo: () => Promise<void>;
   signup: (email: string, password: string) => Promise<{ message: string }>;
   logout: () => Promise<void>;
   refreshSession: () => Promise<void>;
@@ -55,6 +56,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const login = async (email: string, password: string) => {
     const res = await apiPost<{ user: User }>('/auth/login', { email, password });
+    setUser(res.user);
+  };
+
+  const loginAsDemo = async () => {
+    const res = await apiPost<{ user: User }>('/auth/demo-login');
     setUser(res.user);
   };
 
@@ -91,6 +97,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         user,
         loading,
         login,
+        loginAsDemo,
         signup,
         logout,
         refreshSession,
