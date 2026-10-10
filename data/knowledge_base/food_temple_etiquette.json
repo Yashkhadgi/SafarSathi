@@ -1,0 +1,450 @@
+[
+  {
+    "id": "delhi_food_guide",
+    "place": "Delhi",
+    "state": "Delhi",
+    "category": "food_guide",
+    "text": "Delhi street food highlights: Chole Bhature — spiced chickpeas with fried bread (vegetarian). Dahi Bhalle — lentil dumplings in yogurt with tamarind chutney (vegetarian). Paranthe Wali Gali in Chandni Chowk serves stuffed paranthas (butter, potato, paneer — vegetarian). Jalebi at Old Delhi's Dariba Kalan. South Indian options widely available in Connaught Place. South Delhi has international and multi-cuisine restaurant zones (Hauz Khas, Saket). For Jain food: many establishments offer Jain-friendly menus without onion/garlic — ask explicitly. ALLERGY DISCLAIMER: Always inform servers of food allergies — cross-contamination can occur in shared kitchens.",
+    "source_name": "Incredible India",
+    "source_url": "https://www.incredibleindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "food",
+      "street_food",
+      "veg",
+      "jain",
+      "delhi"
+    ]
+  },
+  {
+    "id": "mumbai_food_guide",
+    "place": "Mumbai",
+    "state": "Maharashtra",
+    "category": "food_guide",
+    "text": "Mumbai food icons: Vada Pav — spiced potato fritter in a bun (vegetarian). Pav Bhaji — bread with mixed vegetable curry (vegetarian). Bhel Puri — puffed rice with chutneys (veg, check for onion). Irani cafes serve bun maska with Irani chai. Seafood: Koliwada (fishing village-style) at restaurants in Juhu/Colaba. Halal options widely available in Mohammed Ali Road area and Bandra. Jain restaurants available across the city. ALLERGY DISCLAIMER: Always inform servers of food allergies — cross-contamination can occur in shared kitchens.",
+    "source_name": "Incredible India",
+    "source_url": "https://www.incredibleindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "food",
+      "street_food",
+      "veg",
+      "halal",
+      "seafood",
+      "mumbai"
+    ]
+  },
+  {
+    "id": "jaipur_food_guide",
+    "place": "Jaipur",
+    "state": "Rajasthan",
+    "category": "food_guide",
+    "text": "Jaipur food highlights: Dal Baati Churma — lentil curry with baked wheat balls and sweetened flour (largely vegetarian but ghee-heavy). Pyaaz Kachori — flaky pastry with onion filling (vegetarian). Ghevar — disc-shaped sweet, seasonal (vegetarian). Kalakand — milk-based sweet. Rajasthani cuisine is predominantly vegetarian. Jain-friendly options common (no onion/garlic — specify when ordering). Meat dishes (Laal Maas — mutton in red chili curry) also exist but are not the norm in all eateries. ALLERGY DISCLAIMER: Always inform servers of food allergies — ghee (clarified butter) is used generously in Rajasthani cuisine.",
+    "source_name": "Incredible India",
+    "source_url": "https://www.incredibleindia.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "food",
+      "rajasthani",
+      "veg",
+      "jain",
+      "jaipur"
+    ]
+  },
+  {
+    "id": "kerala_food_guide",
+    "place": "Kerala",
+    "state": "Kerala",
+    "category": "food_guide",
+    "text": "Kerala food highlights: Kerala Sadya — elaborate vegetarian feast on banana leaf, served on Onam. Fish Curry (Meen Curry) — coconut milk and tamarind based. Puttu and Kadala Curry — steamed rice cake with black chickpea curry (vegan-friendly without coconut milk variant). Appam with Stew — rice hoppers with vegetable or coconut stew (vegetarian). Seafood is prominent — prawns, clams, karimeen (pearl spot fish). Halal options widely available in Kozhikode, Malappuram belt. Banana Chips are a universal snack. ALLERGY DISCLAIMER: Coconut and shellfish are ubiquitous in Kerala cuisine — inform servers if allergic.",
+    "source_name": "Kerala Tourism",
+    "source_url": "https://www.keralatourism.org/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "food",
+      "seafood",
+      "veg",
+      "halal",
+      "kerala",
+      "sadya"
+    ]
+  },
+  {
+    "id": "tamil_nadu_food_guide",
+    "place": "Chennai",
+    "state": "Tamil Nadu",
+    "category": "food_guide",
+    "text": "Tamil Nadu food highlights: Dosa — fermented rice and lentil crepe served with sambar and chutneys (vegan-friendly). Idli — steamed rice cakes (vegan). Chettinad cuisine — spicy meat and vegetable dishes. Pongal — rice and lentil porridge (vegan). Filter Coffee — slow drip coffee served in a tumbler (vegetarian). Vegetarian food is very easily found across Tamil Nadu. Halal food available in major cities. ALLERGY DISCLAIMER: Mustard seeds and curry leaves are common ingredients — inform servers of allergies.",
+    "source_name": "Tamil Nadu Tourism",
+    "source_url": "https://www.tamilnadutourism.tn.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "food",
+      "south_indian",
+      "veg",
+      "vegan",
+      "halal",
+      "dosa"
+    ]
+  },
+  {
+    "id": "punjab_food_guide",
+    "place": "Amritsar",
+    "state": "Punjab",
+    "category": "food_guide",
+    "text": "Amritsar/Punjab food highlights: Makki di Roti with Sarson da Saag — cornbread with mustard greens (vegetarian, seasonal winter). Amritsari Kulcha — stuffed bread baked in tandoor (vegetarian). Dal Makhani — rich black lentils with butter (vegetarian). Lassi — thick sweetened yogurt drink. At Golden Temple, langar (community kitchen) serves free vegetarian meals to all visitors regardless of religion — a deeply moving experience. Chole served at the free community kitchen. ALLERGY DISCLAIMER: Dairy (ghee, butter, cream) is used extensively in Punjabi cuisine.",
+    "source_name": "Punjab Tourism",
+    "source_url": "https://www.punjabtourism.punjab.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "food",
+      "punjabi",
+      "veg",
+      "langar",
+      "amritsar"
+    ]
+  },
+  {
+    "id": "kolkata_food_guide",
+    "place": "Kolkata",
+    "state": "West Bengal",
+    "category": "food_guide",
+    "text": "Kolkata food highlights: Puchka (Pani Puri) — crispy hollow puri filled with spiced potato and tamarind water (vegetarian). Kathi Roll — flatbread wrap with egg or chicken (non-veg options; egg is available for vegetarians). Mishti Doi — sweetened fermented yogurt (vegetarian). Roshogolla/Rasgulla — spongy cottage cheese balls in syrup (vegetarian). Biryani (Kolkata style) — includes potato in addition to meat. Vegetarian thali widely available. ALLERGY DISCLAIMER: Mustard oil is commonly used in Bengali cooking — inform servers if allergic.",
+    "source_name": "West Bengal Tourism",
+    "source_url": "https://www.wbtourism.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "food",
+      "bengali",
+      "veg",
+      "non_veg",
+      "kolkata"
+    ]
+  },
+  {
+    "id": "gujarat_food_guide",
+    "place": "Ahmedabad",
+    "state": "Gujarat",
+    "category": "food_guide",
+    "text": "Gujarat food highlights: Dhokla — fermented chickpea flour cake (vegan). Thepla — spiced flatbread with fenugreek (vegan). Undhiyu — mixed vegetable dish (vegetarian). Gujarat is overwhelmingly vegetarian with many Jain-friendly establishments. Fafda-Jalebi is a traditional morning combination (vegetarian). Gujarati Thali is extensive with multiple dishes. No garlic or onion options (Jain) very commonly available — specify. Note: Gujarat is a dry state (alcohol largely prohibited). ALLERGY DISCLAIMER: Groundnut (peanut) is widely used in Gujarati cooking — inform servers if allergic.",
+    "source_name": "Gujarat Tourism",
+    "source_url": "https://www.gujarattourism.com/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "food",
+      "gujarati",
+      "veg",
+      "jain",
+      "vegan",
+      "ahmedabad"
+    ]
+  },
+  {
+    "id": "golden_temple_guide",
+    "place": "Amritsar",
+    "state": "Punjab",
+    "category": "temple_guide",
+    "text": "Golden Temple (Harmandir Sahib), Amritsar: Open 24 hours, free entry for all. The temple is surrounded by the sacred Amrit Sarovar (Pool of Nectar). Visitors must remove shoes at the parikrama entry (free shoe storage available), cover their head (scarves available at the gate), and wash their feet at the foot bath channel. Photography is permitted in the outer parikrama area. Langar (community kitchen) serves free vegetarian meals round the clock. Dress modestly — no shorts or sleeveless tops. The Sikh heritage and atmosphere are unique; observe respectfully.",
+    "source_name": "Sri Harmandir Sahib (SGPC)",
+    "source_url": "https://www.goldentempleamritsar.org/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "temple",
+      "sikh",
+      "etiquette",
+      "free",
+      "amritsar"
+    ]
+  },
+  {
+    "id": "varanasi_temple_guide",
+    "place": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": "temple_guide",
+    "text": "Kashi Vishwanath Temple, Varanasi: One of the most sacred Shiva temples in India. Entry requires ID proof; foreign nationals must carry passport. Devotees queue for darshan; VIP darshan passes available for a fee. Remove shoes before entry. No leather items inside temple premises. Photography strictly prohibited inside. Dress modestly — Indian traditional attire preferred. Ganga Aarti at Dashashwamedh Ghat (evenings, daily) is open to all visitors without ticket — arrive 30 min early for a good viewing spot. Manikarnika Ghat cremation site: never photograph, always be respectful.",
+    "source_name": "Kashi Vishwanath Temple Trust",
+    "source_url": "https://shrikashivishwanath.org/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "temple",
+      "shiva",
+      "hindu",
+      "varanasi",
+      "pilgrimage"
+    ]
+  },
+  {
+    "id": "rajasthan_temple_guide",
+    "place": "Jaipur",
+    "state": "Rajasthan",
+    "category": "temple_guide",
+    "text": "Rajasthan temple etiquette: Temples in Rajasthan (Govind Dev Ji Temple in Jaipur, Brahma Temple in Pushkar, Dilwara Jain Temples in Mount Abu) require: removing shoes at the entrance, modest dress (avoid shorts/sleeveless), and respectful silence near sanctum. Photography rules vary by temple — always check at entry. Jain temples especially require strict purity rules (no non-vegetarian food consumed that day is considered respectful). At Pushkar's Brahma Temple, non-Hindus may enter the courtyard but inner sanctum access is often restricted.",
+    "source_name": "Rajasthan Tourism",
+    "source_url": "https://www.tourism.rajasthan.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "temple",
+      "hindu",
+      "jain",
+      "rajasthan",
+      "etiquette"
+    ]
+  },
+  {
+    "id": "kerala_temple_guide",
+    "place": "Kerala",
+    "state": "Kerala",
+    "category": "temple_guide",
+    "text": "Kerala temple guidelines: Most famous Kerala temples (Padmanabhaswamy Temple in Thiruvananthapuram, Guruvayur Temple in Thrissur) restrict entry to Hindus only. Non-Hindus may not enter these temples. This is a traditional religious practice and should be respected. For open temples: dress in traditional Kerala attire (men — dhoti, women — saree/salwar). Remove footwear. Photography inside the temple compound is typically prohibited. Thrissur Pooram festival (April-May) temple procession is open for viewing by all from public areas.",
+    "source_name": "Kerala Tourism",
+    "source_url": "https://www.keralatourism.org/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "temple",
+      "hindu",
+      "kerala",
+      "restricted_entry",
+      "etiquette"
+    ]
+  },
+  {
+    "id": "india_general_etiquette",
+    "place": "India",
+    "state": "India",
+    "category": "etiquette",
+    "text": "India general travel etiquette: (1) Remove shoes at temples, mosques, and many homes. (2) Dress modestly at religious sites — cover shoulders and knees. (3) Use right hand for eating and giving/receiving items. (4) Ask before photographing people — especially in rural areas and at religious sites. (5) Avoid pointing feet at people or sacred objects — considered rude. (6) Bargaining is normal at markets but not in fixed-price stores. (7) Tipping (10-15%) is appreciated at restaurants. (8) Public displays of affection are generally frowned upon in conservative areas. (9) In temples, circumambulate (walk around shrine) clockwise.",
+    "source_name": "UK Foreign, Commonwealth & Development Office",
+    "source_url": "https://www.gov.uk/foreign-travel-advice/india",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "etiquette",
+      "general",
+      "india"
+    ]
+  },
+  {
+    "id": "goa_etiquette_ext",
+    "place": "Goa",
+    "state": "Goa",
+    "category": "etiquette",
+    "text": "Goa etiquette: Beach to street attire — beachwear is appropriate on beaches but change to modest clothing before entering markets, villages, or churches. Basilica of Bom Jesus and other Old Goa churches require covered shoulders and no shorts. Flea markets (Anjuna, Arpora): bargaining is normal for local crafts, but fixed prices in boutique stores. Drug laws are strictly enforced; penalties are severe. Be respectful in fishing villages — local communities continue traditional lives. Portuguese-era architecture should not be defaced.",
+    "source_name": "Goa Tourism",
+    "source_url": "https://www.goa-tourism.com/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "etiquette",
+      "goa",
+      "church",
+      "beach"
+    ]
+  },
+  {
+    "id": "rajasthan_etiquette",
+    "place": "Rajasthan",
+    "state": "Rajasthan",
+    "category": "etiquette",
+    "text": "Rajasthan etiquette: (1) Dress conservatively — Rajasthan is culturally conservative; women should cover heads in many temple and mosque contexts. (2) At private havelis and fort-hotels, ask permission before photographing local residents. (3) The Pushkar no-meat, no-alcohol rule: Pushkar is a sacred town — no meat or alcohol is sold within city limits; respect this whether or not you are Hindu. (4) Do not enter mosques during prayer time. (5) Camel/horse rides: negotiate price before the ride, not after. (6) At desert camps, be respectful of Bishnoi community lands and traditions.",
+    "source_name": "Rajasthan Tourism",
+    "source_url": "https://www.tourism.rajasthan.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "etiquette",
+      "rajasthan",
+      "conservative",
+      "pushkar"
+    ]
+  },
+  {
+    "id": "northeast_etiquette",
+    "place": "Northeast India",
+    "state": "Assam",
+    "category": "etiquette",
+    "text": "Northeast India etiquette: (1) Tribal and indigenous community areas (Nagaland, Meghalaya, Arunachal Pradesh) — ask permission before visiting villages, especially during festivals. (2) Inner Line Permits (ILP) are mandatory for Nagaland, Mizoram, Arunachal Pradesh, and Manipur for Indian citizens too. Foreigners need Protected Area Permits (PAP). (3) Do not photograph sacred sites or festivals without explicit consent. (4) Alcohol norms vary — some tribal communities drink traditional rice beer; other areas are dry. (5) Respect local customs at Hornbill Festival (Nagaland) and Bihu (Assam).",
+    "source_name": "Northeast India Tourism",
+    "source_url": "https://www.northeast-india-tourism.com/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "etiquette",
+      "northeast",
+      "tribal",
+      "ILP",
+      "permits"
+    ]
+  },
+  {
+    "id": "best_time_jaipur",
+    "place": "Jaipur",
+    "state": "Rajasthan",
+    "category": "best_time",
+    "text": "Best time to visit Jaipur: October to March is the peak season with pleasant weather (15-25°C daytime). Jaipur Literature Festival (January) and Jaipur Heritage Festival are popular annual events. Holi (March) is a spectacular celebration in Jaipur. Avoid April-June — temperatures can exceed 45°C. Monsoon (July-September) brings some relief but humidity increases. Winter nights (December-January) can be cold (5-8°C) — carry a jacket.",
+    "source_name": "Rajasthan Tourism",
+    "source_url": "https://www.tourism.rajasthan.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "season",
+      "best_time",
+      "festivals",
+      "jaipur"
+    ]
+  },
+  {
+    "id": "best_time_kerala",
+    "place": "Kerala",
+    "state": "Kerala",
+    "category": "best_time",
+    "text": "Best time to visit Kerala: October to February (post-monsoon to winter) for beaches, backwaters, and hill stations like Munnar. March-May is hot and humid. Southwest monsoon (June-August) brings heavy rains — lush greenery but backwater flooding and rough seas on coast. Onam (August-September) is the biggest Kerala festival — celebrated with snake boat races, floral arrangements (pookalam), and traditional Sadya feast. Thrissur Pooram (April-May) is the grand temple festival. Wildlife parks (Periyar, Wayanad) are best October-May.",
+    "source_name": "Kerala Tourism",
+    "source_url": "https://www.keralatourism.org/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "season",
+      "best_time",
+      "festivals",
+      "kerala"
+    ]
+  },
+  {
+    "id": "best_time_goa",
+    "place": "Goa",
+    "state": "Goa",
+    "category": "best_time",
+    "text": "Best time to visit Goa: November to February for beach holidays — dry, sunny, and mild (25-32°C). Christmas and New Year are extremely busy and expensive. Carnival (February-March) is a colourful street festival. Shigmo (Holi equivalent in Goa) is celebrated in March. Monsoon (June-September) — most beach shacks close, sea is rough and swimming is dangerous, but lush green landscapes and lower prices. April-May is hot and humid before monsoon. Off-season (June-September) has significantly cheaper accommodation.",
+    "source_name": "Goa Tourism",
+    "source_url": "https://www.goa-tourism.com/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "season",
+      "best_time",
+      "festivals",
+      "goa",
+      "beach"
+    ]
+  },
+  {
+    "id": "best_time_himachal",
+    "place": "Manali",
+    "state": "Himachal Pradesh",
+    "category": "best_time",
+    "text": "Best time to visit Manali and Himachal Pradesh: October-November and March-June for pleasant temperatures (10-25°C). Rohtang Pass and Solang Valley snow activities: best December-February (but Rohtang may close due to heavy snowfall — verify road conditions). Peak summer (May-June) is very busy with Indian tourists. Monsoon (July-September) brings landslide risks on mountain roads — exercise caution. Spiti Valley is best June-September when roads are open.",
+    "source_name": "Himachal Pradesh Tourism",
+    "source_url": "https://himachaltourism.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "season",
+      "best_time",
+      "mountain",
+      "manali",
+      "himachal"
+    ]
+  },
+  {
+    "id": "best_time_rajasthan",
+    "place": "Rajasthan",
+    "state": "Rajasthan",
+    "category": "best_time",
+    "text": "Best time to visit Rajasthan: October to March for comfortable temperatures across all Rajasthani cities. Pushkar Camel Fair (November) is an internationally famous festival. Jaisalmer Desert Festival (February) features camel races and folk performances. Udaipur's Shilpgram Craft Festival (December) celebrates Rajasthani crafts. Avoid April-June — extreme heat especially in Jaisalmer and Barmer. Rains (July-September) are light in desert regions — some areas remain accessible.",
+    "source_name": "Rajasthan Tourism",
+    "source_url": "https://www.tourism.rajasthan.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "season",
+      "best_time",
+      "festivals",
+      "rajasthan",
+      "desert"
+    ]
+  },
+  {
+    "id": "best_time_ladakh",
+    "place": "Leh",
+    "state": "Ladakh",
+    "category": "best_time",
+    "text": "Best time to visit Leh (Ladakh): May to September for road access (Manali-Leh and Srinagar-Leh highways are open). June-August is the main tourist season. Pangong Lake and Nubra Valley most accessible July-September. Winters (October-April) are extremely cold (-20°C or lower at altitude). The Chadar Trek (frozen Zanskar river trek) is done in January-February — extreme conditions requiring experience. Losar (Ladakhi New Year) is celebrated in February-March. Always acclimatize 2-3 days before undertaking high-altitude excursions.",
+    "source_name": "Ladakh Tourism",
+    "source_url": "https://www.leh.nic.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "season",
+      "best_time",
+      "altitude",
+      "ladakh",
+      "leh"
+    ]
+  },
+  {
+    "id": "best_time_kolkata",
+    "place": "Kolkata",
+    "state": "West Bengal",
+    "category": "best_time",
+    "text": "Best time to visit Kolkata: October to February for pleasant weather (15-25°C). Durga Puja (October — dates vary) is the world's largest art festival and transforms the city with thousands of themed pandals (marquee installations). It is an unmissable cultural event. Kali Puja and Diwali (October-November) are also vibrant. Avoid May-June (40°C+) and monsoon season (June-September) which brings significant flooding. Christmas in Park Street is also a festive highlight.",
+    "source_name": "West Bengal Tourism",
+    "source_url": "https://www.wbtourism.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "season",
+      "best_time",
+      "festivals",
+      "kolkata",
+      "durga_puja"
+    ]
+  },
+  {
+    "id": "best_time_varanasi",
+    "place": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": "best_time",
+    "text": "Best time to visit Varanasi: October to March — cooler and pleasant for ghat walks and boat rides. Dev Deepawali (Kartik Purnima — November) is when thousands of diyas light the ghats — a spectacular sight. Ganga Mahotsav (November) features classical music performances on the ghats. Shivaratri (February-March) brings huge pilgrim crowds — a high-energy religious experience. Avoid April-June (extreme heat). Monsoon (July-September) brings flooding near ghats — some ghats may be submerged.",
+    "source_name": "UP Tourism",
+    "source_url": "https://uptourism.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "season",
+      "best_time",
+      "festivals",
+      "varanasi",
+      "pilgrimage"
+    ]
+  },
+  {
+    "id": "best_time_delhi",
+    "place": "Delhi",
+    "state": "Delhi",
+    "category": "best_time",
+    "text": "Best time to visit Delhi: October to February for pleasant weather (10-25°C). Republic Day parade (26 January) is a grand national event on Kartavya Path. Delhi Food Festival and various cultural events happen in winter. Monsoon (July-September) cools the city but brings humidity and flooding. Air quality can be very poor November-January due to crop burning and winter inversions — check AQI and consider an N95 mask. Holi (March) is celebrated vibrantly in Delhi. Summers (April-June) are brutal — 42-45°C.",
+    "source_name": "Delhi Tourism",
+    "source_url": "https://delhitourism.gov.in/",
+    "last_verified": "2024-10-15",
+    "language": "en",
+    "tags": [
+      "season",
+      "best_time",
+      "festivals",
+      "delhi",
+      "AQI"
+    ]
+  }
+]
