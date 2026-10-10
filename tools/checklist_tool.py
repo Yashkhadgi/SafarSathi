@@ -183,16 +183,43 @@ def smart_packing_list(
         total_items = sum(len(items) for items in categories.values())
         essential_items = sum(sum(1 for i in items if i.get("essential")) for items in categories.values())
 
-        return {
+        res = {
             "destination": destination,
-            "duration_days": days,
-            "season": season or "standard",
+            "days": days,
+            "season": season or "moderate",
+
             "traveler_type": traveler_type or "general",
             "total_items": total_items,
             "essential_count": essential_items,
             "categories": categories,
             "tip": "Roll clothes instead of folding to save 30% luggage space and reduce wrinkles.",
         }
+        res["ui"] = {
+            "type": "checklist",
+            "version": "1.0",
+            "data": {
+                "title": f"Smart Packing List — {destination} ({days} Days)",
+                "destination": destination,
+                "season": season or "all-season",
+                "categories": [
+                    {
+                        "name": cat_key.replace("_", " ").title(),
+                        "items": [
+                            {
+                                "id": f"item_{cat_key}_{idx}",
+                                "label": it.get("item", ""),
+                                "essential": it.get("essential", False),
+                                "checked": False,
+                            }
+                            for idx, it in enumerate(cat_items)
+                        ]
+                    }
+                    for cat_key, cat_items in categories.items()
+                ],
+                "tip": res["tip"],
+            }
+        }
+        return res
     except Exception as exc:
         return {"error": f"Smart packing list generation failed: {exc}"}
 
@@ -274,7 +301,7 @@ def pre_trip_checklist(trip_start_date: str = "", destination: str = "", is_inte
             _format_stage(t0, 0, "Departure Day: Final Quick-Check"),
         ]
 
-        return {
+        res = {
             "destination": dest,
             "start_date": trip_start_date or "Not specified",
             "is_international": is_international,
@@ -282,5 +309,32 @@ def pre_trip_checklist(trip_start_date: str = "", destination: str = "", is_inte
             "total_tasks": sum(len(s["tasks"]) for s in stages),
             "safety_note": "Information only — verify official airline, IRCTC, and immigration rules directly.",
         }
+        res["ui"] = {
+            "type": "checklist",
+            "version": "1.0",
+            "data": {
+                "title": f"Pre-Trip Timeline Checklist — {dest}",
+                "destination": dest,
+                "season": trip_start_date or "pre-trip",
+                "categories": [
+                    {
+                        "name": stage["timeline_label"],
+                        "items": [
+                            {
+                                "id": f"task_{s_idx}_{t_idx}",
+                                "label": t["task"],
+                                "essential": t.get("category") in ("documents", "essentials"),
+                                "checked": False,
+                            }
+                            for t_idx, t in enumerate(stage["tasks"])
+                        ]
+                    }
+                    for s_idx, stage in enumerate(stages)
+                ],
+                "tip": res["safety_note"],
+            }
+        }
+        return res
     except Exception as exc:
         return {"error": f"Pre-trip checklist generation failed: {exc}"}
+

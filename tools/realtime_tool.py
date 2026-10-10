@@ -90,9 +90,23 @@ def _get_live_weather(place, days):
         except (requests.RequestException, KeyError, IndexError, TypeError, ValueError):
             pass
     verified = datetime.now(timezone.utc).date().isoformat()
-    return {"place": place, "current": current, "forecast": forecast, "air_quality": air,
-            "warnings": warnings, "source_name": "OpenWeather",
-            "source_url": OPENWEATHER_DOC, "last_verified": verified, "approx": True}
+    res = {"place": place, "current": current, "forecast": forecast, "air_quality": air,
+           "warnings": warnings, "source_name": "OpenWeather",
+           "source_url": OPENWEATHER_DOC, "last_verified": verified, "approx": True}
+    res["ui"] = {
+        "type": "weather",
+        "version": "1.0",
+        "data": {
+            "city": place,
+            "temperature_c": current.get("temp_c"),
+            "condition": current.get("condition"),
+            "air_quality": air,
+            "forecast": forecast,
+            "warnings": warnings,
+            "last_verified": verified,
+        }
+    }
+    return res
 
 
 def get_live_weather(place, days=3):
@@ -187,9 +201,21 @@ def _near_me_live(latitude, longitude, kind, open_now, veg, min_rating):
                         "address": item.get("vicinity", ""), "latitude": position["lat"],
                         "longitude": position["lng"]})
     results.sort(key=lambda item: item["distance_km"])
-    return {"results": results[:5], "source_name": "Google Places",
-            "source_url": GOOGLE_PLACES_DOC,
-            "last_verified": datetime.now(timezone.utc).date().isoformat(), "approx": True}
+    verified = datetime.now(timezone.utc).date().isoformat()
+    res = {"results": results[:5], "source_name": "Google Places",
+           "source_url": GOOGLE_PLACES_DOC,
+           "last_verified": verified, "approx": True}
+    res["ui"] = {
+        "type": "near_me",
+        "version": "1.0",
+        "data": {
+            "category": kind,
+            "places": results[:5],
+            "last_verified": verified,
+        }
+    }
+    return res
+
 
 
 def near_me(latitude=None, longitude=None, city="", kind="attractions", open_now=False,

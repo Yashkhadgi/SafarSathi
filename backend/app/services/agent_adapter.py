@@ -68,6 +68,7 @@ async def stream_agent_chat(
         full_assistant_reply = []
         collected_sources = []
         collected_tools = []
+        collected_cards = []
 
         # Run streaming core agent generator
         for chunk in stream_core_agent(session_id=session_id, message=user_message):
@@ -80,12 +81,19 @@ async def stream_agent_chat(
                     "data": {"message": chunk["status"], "step": "tool_execution"},
                 }
 
+            if "ui_card" in chunk and isinstance(chunk["ui_card"], dict):
+                collected_cards.append(chunk["ui_card"])
+                yield {
+                    "event": "ui_card",
+                    "data": {"card": chunk["ui_card"]},
+                }
+
             if "partial" in chunk:
                 token_text = chunk["partial"]
                 full_assistant_reply.append(token_text)
                 yield {
                     "event": "token",
-                    "data": {"delta": token_text},
+                    "data": {"delta": token_text, "token": token_text},
                 }
 
             if "sources" in chunk and isinstance(chunk["sources"], list):
@@ -118,6 +126,7 @@ async def stream_agent_chat(
             content=final_content,
             tools_used=list(dict.fromkeys(collected_tools)),
             sources=collected_sources,
+            cards=collected_cards,
             language=language,
         )
         db.commit()
@@ -130,6 +139,7 @@ async def stream_agent_chat(
                 "content": final_content,
                 "tools_used": asst_msg_obj.tools_used,
                 "sources": asst_msg_obj.sources,
+                "cards": asst_msg_obj.cards or [],
             },
         }
 

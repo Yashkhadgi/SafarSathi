@@ -215,6 +215,7 @@ def build_itinerary(destination, days, travelers=1, pace="normal", session_id=""
         if "error" in stored:
             return stored
         stored["markdown"] = itinerary_markdown(stored)
+        stored["ui"] = {"type": "itinerary", "version": "1.0", "data": copy.deepcopy(stored)}
         return stored
     except Exception as exc:
         return {"error": str(exc)}
@@ -302,6 +303,7 @@ def edit_itinerary(trip_id, instruction, session_id, operations=None):
         if "error" not in saved:
             saved["diff_summary"] = summary
             saved["markdown"] = itinerary_markdown(saved)
+            saved["ui"] = {"type": "itinerary", "version": "1.0", "data": copy.deepcopy(saved)}
         return saved
     except (KeyError, IndexError, TypeError, ValueError):
         return {"error": "Invalid patch operation or day/slot index"}

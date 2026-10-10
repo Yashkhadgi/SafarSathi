@@ -201,10 +201,26 @@ def _route_response(origin, destination):
             "Compare the verified duration and distance above; select a mode only after checking current schedules and fares."
         ),
         "verify_line": "Verify schedules and fares on IRCTC or the relevant airline/operator site before travel. No booking links are provided.",
-        "sources": list(dict.fromkeys(sources)),
+        "sources": sources,
     }
+
     result["markdown"] = _route_markdown(result)
+    result["ui"] = {
+        "type": "route_options",
+        "version": "1.0",
+        "data": {
+            "origin": origin,
+            "destination": destination,
+            "options": rows,
+            "nearest_airport": airport,
+            "nearest_railway_station": railway,
+            "recommendation": result["recommendation"],
+            "verify_line": result["verify_line"],
+            "sources": result["sources"],
+        }
+    }
     return result
+
 
 
 def _route_markdown(result):

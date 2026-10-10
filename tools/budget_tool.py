@@ -1,5 +1,6 @@
 """Deterministic, explicitly approximate trip budget estimates."""
 
+import copy
 import json
 import math
 import re
@@ -236,7 +237,10 @@ def _format_markdown(categories, total, travelers, days, tier, source, entry_not
 def estimate_budget(trip, travelers, tier, currency="INR"):
     """Estimate a budget with Python arithmetic. Returns a result or an error object."""
     try:
-        return _build_estimate(trip, travelers, tier, currency=currency)
+        res = _build_estimate(trip, travelers, tier, currency=currency)
+        if isinstance(res, dict) and "error" not in res:
+            res["ui"] = {"type": "budget", "version": "1.0", "data": copy.deepcopy(res)}
+        return res
     except Exception as exc:
         return {"error": f"Could not estimate budget: {exc}"}
 
@@ -270,6 +274,7 @@ def compare_budget_tiers(trip, travelers, currency="INR"):
             "approx": True,
             "last_verified": estimates[0]["last_verified"],
         }
+        result["ui"] = {"type": "budget", "version": "1.0", "data": copy.deepcopy(result)}
         return result
     except Exception as exc:
         return {"error": f"Could not compare budget tiers: {exc}"}

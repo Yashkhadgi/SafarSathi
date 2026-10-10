@@ -201,7 +201,7 @@ def optimize_route(cities: list, origin: str, total_days: int) -> dict:
         if len(city_coords_list) < len(all_cities):
             warnings.append("Route optimized only for cities with known coordinates.")
 
-        return {
+        res = {
             "origin": origin,
             "optimized_order": ordered_cities,
             "day_allocations": day_allocations,
@@ -212,5 +212,31 @@ def optimize_route(cities: list, origin: str, total_days: int) -> dict:
             "disclaimer": "Distances are approximate straight-line (haversine) values. Actual road distances and travel times will differ significantly, especially in mountainous regions. Verify with Google Maps or IRCTC.",
             "warnings": warnings,
         }
+        ordered_stops = []
+        for c in ordered_cities:
+            alloc = next((d["days_allocated"] for d in day_allocations if d["city"].casefold() == c.casefold()), 0)
+            leg_info = next((f"{l['from']} → {l['to']} (~{l['distance_km_approx']} km)" for l in legs if l["to"].casefold() == c.casefold()), "Departure origin")
+            ordered_stops.append({
+                "city": c,
+                "recommended_days": alloc,
+                "travel_from_prev": leg_info,
+            })
+
+        res["ui"] = {
+            "type": "multi_city",
+            "version": "1.0",
+            "data": {
+                "origin": origin,
+                "ordered_cities": ordered_stops,
+                "inter_city_legs": legs,
+                "total_days": total_days,
+                "total_km_approx": round(total_km),
+                "disclaimer": res["disclaimer"],
+                "warnings": warnings,
+            }
+        }
+        return res
+
     except Exception as exc:
         return {"error": f"Route optimization failed: {exc}"}
+

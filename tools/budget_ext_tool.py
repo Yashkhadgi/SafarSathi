@@ -91,13 +91,34 @@ def check_fair_price(city: str, transport_type: str = "", context: str = "") -> 
         result["source"] = data.get("source_name", "")
         result["source_url"] = data.get("source_url", "")
         result["last_verified"] = data.get("last_verified", "2024-10")
-        result["disclaimer"] = data.get("disclaimer", "All prices are approximate.")
         if context:
             result["context"] = context
 
+        items = []
+        for pk, pv in result.get("prices", {}).items():
+            if isinstance(pv, dict):
+                label = pk.replace("_", " ").title()
+                items.append({
+                    "label": label,
+                    "price_inr": f"{pv.get('approx_inr', pv.get('approx_range_inr', 'verify'))}",
+                    "free_days": pv.get("notes", "Planning benchmark"),
+                    "source_url": result.get("source_url", ""),
+                    "last_verified": result.get("last_verified", "2024-10"),
+                })
+        result["ui"] = {
+            "type": "price_table",
+            "version": "1.0",
+            "data": {
+                "city_or_place": city_key,
+                "kind": "local_transport",
+                "items": items,
+                "disclaimer": result.get("disclaimer", ""),
+            }
+        }
         return result
     except Exception as exc:
         return {"error": f"Fair price lookup failed: {exc}"}
+
 
 
 def atm_info(city: str = "") -> dict:

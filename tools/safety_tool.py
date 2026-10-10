@@ -95,7 +95,7 @@ def get_area_safety(city: str, context: str = "") -> dict:
             text = f"[Context: {context}]\n\n" + text
         text += _EMERGENCY_FOOTER
 
-        return {
+        res = {
             "city": city,
             "safety_tips": text,
             "emergency_numbers": {"national_emergency": "112", "ambulance": "108", "tourist_police": "1363"},
@@ -103,6 +103,8 @@ def get_area_safety(city: str, context: str = "") -> dict:
             "source_url": rec.get("source_url", ""),
             "last_verified": rec.get("last_verified", ""),
         }
+        res["ui"] = {"type": "sos", "version": "1.0", "data": dict(res)}
+        return res
     except Exception as exc:
         return {"error": f"Safety lookup failed: {exc}"}
 

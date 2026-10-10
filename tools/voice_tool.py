@@ -144,6 +144,37 @@ def _chunk_text(text: str, max_chars: int = 500) -> list:
     return chunks if chunks else [text[:max_chars]]
 
 
+def transcribe_audio_payload(audio_bytes: bytes, file_format: str = "webm", language_code: str = "hi-IN") -> dict:
+    """Wrapper returning structured dict for API endpoints."""
+    transcript = speech_to_text(audio_bytes, file_format=file_format, lang_code=language_code)
+    return {
+        "transcript": transcript,
+        "language_code": language_code,
+        "success": bool(transcript),
+    }
+
+
+def synthesize_speech_payload(text: str, target_language_code: str = "hi-IN") -> dict:
+    """Wrapper returning base64 audio payload for frontend playback."""
+    audio = text_to_speech(text, lang_code=target_language_code)
+    if audio:
+        b64 = base64.b64encode(audio).decode("utf-8")
+        return {
+            "audio_base64": b64,
+            "audio_url": f"data:audio/wav;base64,{b64}",
+            "language_code": target_language_code,
+            "success": True,
+        }
+    return {
+        "audio_base64": None,
+        "audio_url": None,
+        "language_code": target_language_code,
+        "fallback_to_browser": True,
+        "success": False,
+    }
+
+
+
 if __name__ == "__main__":
     print("=== Testing TTS (English) ===")
     audio = text_to_speech(

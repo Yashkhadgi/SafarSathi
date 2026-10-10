@@ -15,3 +15,11 @@
 - No booking and no payment features.
 - Tool/API wrappers never raise; return {"error": "..."}.
 - After each task: list changed files, new env keys (add to config/.env.example), and the manual checkpoint steps. Then STOP.
+
+## Testing rule (mandatory)
+- A feature is NOT done until you have run it and seen it work: start backend and frontend, and run the flow end to end.
+- Add Playwright e2e tests (npm run test:e2e). A USE_FAKE_LLM=true mode returns canned replies so tests cost nothing.
+- Every task ends with the actual command output of the tests, not a claim.
+- Raw exceptions must never reach the UI. Log the real error server side with a request id; show the user a short friendly message and a retry button.
+- If you could not test something, say so explicitly.
+

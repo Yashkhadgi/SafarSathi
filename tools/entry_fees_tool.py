@@ -76,11 +76,33 @@ def get_entry_fees(place: str) -> dict:
                 "source_url": m.get("source_url", data.get("source_url")),
             })
 
-        return {
+        res = {
             "place": place,
             "results": results,
             "disclaimer": data.get("disclaimer", "All fees are approximate — verify at monument."),
             "last_verified": data.get("last_verified", "2024-10"),
         }
+        res["ui"] = {
+            "type": "price_table",
+            "version": "1.0",
+            "data": {
+                "city_or_place": place,
+                "kind": "monument_entry",
+                "items": [
+                    {
+                        "label": r.get("monument"),
+                        "price_inr": str(r.get("entry_fee_indian_inr", "verify")),
+                        "foreign_price_inr": str(r.get("entry_fee_foreign_inr_approx", "verify")),
+                        "free_days": r.get("free_days") or r.get("free_for", "None"),
+                        "source_url": r.get("source_url", ""),
+                        "last_verified": r.get("last_verified", "2024-10"),
+                    }
+                    for r in results
+                ],
+                "disclaimer": res["disclaimer"],
+            }
+        }
+        return res
     except Exception as exc:
         return {"error": f"Entry fees lookup failed: {exc}"}
+
