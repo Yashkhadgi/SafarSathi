@@ -44,6 +44,7 @@ class Message(Base):
     content = Column(Text, nullable=False)
     tools_used = Column(JSON, nullable=False, default=list)
     sources = Column(JSON, nullable=False, default=list)
+    cards = Column(JSON, nullable=True, default=list)
     language = Column(String(10), nullable=True, default="en")
     created_at = Column(DateTime(timezone=True), nullable=False, default=_now)
 

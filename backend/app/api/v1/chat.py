@@ -167,10 +167,42 @@ def get_conversation_details(
                 "content": m.content,
                 "tools_used": m.tools_used,
                 "sources": m.sources,
+                "cards": m.cards or [],
                 "created_at": m.created_at,
             }
             for m in msgs
         ],
+    }
+
+
+@router.get("/conversations/{conversation_id}/messages")
+def get_conversation_messages_only(
+    conversation_id: str,
+    limit: int = Query(default=50, ge=1, le=200),
+    offset: int = Query(default=0, ge=0),
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db),
+):
+    """Direct messages getter for a conversation."""
+    convo = get_conversation(db, conversation_id, current_user.id)
+    if not convo:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Conversation not found.")
+
+    msgs, total = get_messages(db, conversation_id, current_user.id, limit=limit, offset=offset)
+    return {
+        "messages": [
+            {
+                "id": m.id,
+                "role": m.role,
+                "content": m.content,
+                "tools_used": m.tools_used,
+                "sources": m.sources,
+                "cards": m.cards or [],
+                "created_at": m.created_at,
+            }
+            for m in msgs
+        ],
+        "total": total,
     }
 
 

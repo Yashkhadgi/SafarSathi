@@ -31,17 +31,27 @@ async def transcribe_audio(
 
     try:
         from tools.voice_tool import transcribe_audio_payload
-        result = transcribe_audio_payload(content, language_code=language_code)
+        ext = "webm"
+        if file.filename and "." in file.filename:
+            ext = file.filename.rsplit(".", 1)[-1].lower()
+        elif file.content_type:
+            if "mp4" in file.content_type or "m4a" in file.content_type:
+                ext = "m4a"
+            elif "wav" in file.content_type:
+                ext = "wav"
+            elif "ogg" in file.content_type:
+                ext = "ogg"
+        result = transcribe_audio_payload(content, file_format=ext, language_code=language_code)
         return result
     except ImportError:
-        # Fallback simulator when voice model is not configured locally
         return {
-            "transcript": "Audio received. Voice STT service not configured.",
+            "transcript": "",
             "language_code": language_code,
             "simulated": True,
+            "success": False,
         }
     except Exception as exc:
-        return {"error": f"Transcription failed: {exc}"}
+        return {"transcript": "", "error": f"Transcription failed: {exc}", "success": False}
 
 
 @router.post("/speak")

@@ -51,7 +51,21 @@ def get_db():
 
 
 def init_db():
-    """Create all tables defined on Base."""
+    """Create all tables defined on Base and ensure any missing columns exist."""
     # Import all models to register with Base.metadata
     from backend.app.db.models import user, conversation, trip, profile, contact, feedback  # noqa: F401
     Base.metadata.create_all(bind=engine)
+
+    # SQLite lightweight migration helper for added columns
+    if str(engine.url).startswith("sqlite"):
+        from sqlalchemy import text
+        with engine.connect() as conn:
+            try:
+                res = conn.execute(text("PRAGMA table_info(messages)"))
+                cols = [row[1] for row in res.fetchall()]
+                if cols and "cards" not in cols:
+                    conn.execute(text("ALTER TABLE messages ADD COLUMN cards JSON DEFAULT '[]'"))
+                    conn.commit()
+            except Exception:
+                pass
+

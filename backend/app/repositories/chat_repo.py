@@ -72,6 +72,7 @@ def save_message(
     content: str,
     tools_used: Optional[List[str]] = None,
     sources: Optional[List[Dict[str, Any]]] = None,
+    cards: Optional[List[Dict[str, Any]]] = None,
     language: str = "en",
 ) -> Message:
     """Append a message turn to a conversation and bump updated_at."""
@@ -92,6 +93,7 @@ def save_message(
         content=content,
         tools_used=tools_used or [],
         sources=sources or [],
+        cards=cards or [],
         language=language or "en",
     )
     db.add(msg)
