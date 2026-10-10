@@ -1,0 +1,58 @@
+{
+  "country": "India",
+  "last_verified": "2026-10-10",
+  "primary_emergency_number": "112",
+  "numbers": [
+    {
+      "label": "All emergencies (police, fire, medical)",
+      "number": "112",
+      "note": "India's unified emergency number; use this first for immediate danger.",
+      "source_name": "Emergency Response Support System, Government of India",
+      "source_url": "https://112.gov.in/"
+    },
+    {
+      "label": "Police (legacy number)",
+      "number": "100",
+      "note": "112 is the unified emergency number.",
+      "source_name": "Ministry of Home Affairs, Government of India",
+      "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2019-pdfs/ls-10122019/3455.pdf"
+    },
+    {
+      "label": "Fire and rescue (legacy number)",
+      "number": "101",
+      "note": "112 is the unified emergency number.",
+      "source_name": "Goa Police State Police Control Room",
+      "source_url": "https://citizen.goapolice.gov.in/web/guest/state-police-control-room"
+    },
+    {
+      "label": "Ambulance (legacy numbers)",
+      "number": "102 / 108",
+      "note": "Availability and service routing can vary by state; use 112 for an emergency.",
+      "source_name": "Ministry of Home Affairs, Government of India",
+      "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2019-pdfs/ls-10122019/3455.pdf"
+    },
+    {
+      "label": "Women in distress",
+      "number": "1091",
+      "note": "Availability may vary by state; use 112 if you cannot connect or need immediate emergency help.",
+      "source_name": "Goa Police State Police Control Room",
+      "source_url": "https://citizen.goapolice.gov.in/web/guest/state-police-control-room"
+    },
+    {
+      "label": "Tourist helpline",
+      "number": "1363",
+      "note": "Ministry of Tourism multilingual tourist helpline; 24x7 per the Ministry listing.",
+      "source_name": "Ministry of Tourism, Government of India",
+      "source_url": "https://tourism.gov.in/"
+    },
+    {
+      "label": "Child helpline",
+      "number": "1098",
+      "note": "Government of India Child Helpline.",
+      "source_name": "Ministry of Women and Child Development, Government of India",
+      "source_url": "https://www.wcd.gov.in/"
+    }
+  ],
+  "hindi_emergency_phrase": "मुझे मदद चाहिए। कृपया पुलिस या एम्बुलेंस को कॉल करें।",
+  "share_location_hook": "trusted_contacts_share_location"
+}

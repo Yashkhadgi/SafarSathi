@@ -1,0 +1,12 @@
+{
+  "phrases": [
+    {"code": "en-IN", "language": "English", "text": "I need help. Please call the police or an ambulance."},
+    {"code": "hi-IN", "language": "Hindi", "text": "मुझे मदद चाहिए। कृपया पुलिस या एम्बुलेंस को कॉल करें।"},
+    {"code": "bn-IN", "language": "Bengali", "text": "আমার সাহায্য দরকার। দয়া করে পুলিশ বা অ্যাম্বুলেন্স ডাকুন।"},
+    {"code": "ta-IN", "language": "Tamil", "text": "எனக்கு உதவி தேவை. தயவுசெய்து காவல்துறையையோ ஆம்புலன்ஸையோ அழைக்கவும்."},
+    {"code": "te-IN", "language": "Telugu", "text": "నాకు సహాయం కావాలి. దయచేసి పోలీసులకు లేదా అంబులెన్స్‌కు కాల్ చేయండి."},
+    {"code": "mr-IN", "language": "Marathi", "text": "मला मदत हवी आहे. कृपया पोलिसांना किंवा रुग्णवाहिकेला बोलवा."},
+    {"code": "gu-IN", "language": "Gujarati", "text": "મને મદદ જોઈએ છે. કૃપા કરીને પોલીસ અથવા એમ્બ્યુલન્સને બોલાવો."},
+    {"code": "kn-IN", "language": "Kannada", "text": "ನನಗೆ ಸಹಾಯ ಬೇಕು. ದಯವಿಟ್ಟು ಪೊಲೀಸರಿಗೆ ಅಥವಾ ಆಂಬ್ಯುಲೆನ್ಸ್‌ಗೆ ಕರೆ ಮಾಡಿ."}
+  ]
+}

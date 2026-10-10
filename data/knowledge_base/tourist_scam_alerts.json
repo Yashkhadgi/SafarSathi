@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "delhi_scams_b10",
+    "place": "Delhi",
+    "state": "Delhi",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "delhi_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "delhi_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "delhi_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "goa_scams_b10",
+    "place": "Goa",
+    "state": "Goa",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "goa_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "goa_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "goa_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "manali_scams_b10",
+    "place": "Manali",
+    "state": "Himachal Pradesh",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "manali_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "manali_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "manali_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "shimla_scams_b10",
+    "place": "Shimla",
+    "state": "Himachal Pradesh",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "shimla_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "shimla_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "shimla_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "hampi_scams_b10",
+    "place": "Hampi",
+    "state": "Karnataka",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "hampi_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "hampi_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "hampi_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "mysuru_scams_b10",
+    "place": "Mysuru",
+    "state": "Karnataka",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "mysuru_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "mysuru_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "mysuru_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "kochi_scams_b10",
+    "place": "Kochi",
+    "state": "Kerala",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "kochi_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "kochi_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "kochi_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "munnar_scams_b10",
+    "place": "Munnar",
+    "state": "Kerala",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "munnar_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "munnar_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "munnar_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "leh_scams_b10",
+    "place": "Leh",
+    "state": "Ladakh",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "leh_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "leh_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "leh_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "aurangabad_scams_b10",
+    "place": "Aurangabad",
+    "state": "Maharashtra",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "aurangabad_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "aurangabad_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "aurangabad_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "mumbai_scams_b10",
+    "place": "Mumbai",
+    "state": "Maharashtra",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "mumbai_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "mumbai_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "mumbai_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "nashik_scams_b10",
+    "place": "Nashik",
+    "state": "Maharashtra",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "nashik_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "nashik_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "nashik_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "shirdi_scams_b10",
+    "place": "Shirdi",
+    "state": "Maharashtra",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "shirdi_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "shirdi_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "shirdi_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "amritsar_scams_b10",
+    "place": "Amritsar",
+    "state": "Punjab",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "amritsar_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "amritsar_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "amritsar_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "jaipur_scams_b10",
+    "place": "Jaipur",
+    "state": "Rajasthan",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "jaipur_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "jaipur_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "jaipur_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "jaisalmer_scams_b10",
+    "place": "Jaisalmer",
+    "state": "Rajasthan",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "jaisalmer_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "jaisalmer_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "jaisalmer_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "jodhpur_scams_b10",
+    "place": "Jodhpur",
+    "state": "Rajasthan",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "jodhpur_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "jodhpur_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "jodhpur_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "udaipur_scams_b10",
+    "place": "Udaipur",
+    "state": "Rajasthan",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "udaipur_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "udaipur_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "udaipur_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "chennai_scams_b10",
+    "place": "Chennai",
+    "state": "Tamil Nadu",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "chennai_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "chennai_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "chennai_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "madurai_scams_b10",
+    "place": "Madurai",
+    "state": "Tamil Nadu",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "madurai_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "madurai_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "madurai_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "agra_scams_b10",
+    "place": "Agra",
+    "state": "Uttar Pradesh",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "agra_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "agra_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "agra_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "varanasi_scams_b10",
+    "place": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "varanasi_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "varanasi_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "varanasi_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "rishikesh_scams_b10",
+    "place": "Rishikesh",
+    "state": "Uttarakhand",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "rishikesh_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "rishikesh_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "rishikesh_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "darjeeling_scams_b10",
+    "place": "Darjeeling",
+    "state": "West Bengal",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "darjeeling_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "darjeeling_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "darjeeling_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "id": "kolkata_scams_b10",
+    "place": "Kolkata",
+    "state": "West Bengal",
+    "category": "scams",
+    "text": "Alert 1 - Situation: India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay. How to avoid: Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure. Fair-price hint: No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.\nAlert 2 - Situation: India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services. How to avoid: Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing. Fair-price hint: No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.\nAlert 3 - Situation: India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good. How to avoid: Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers. Fair-price hint: No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+    "source_name": "U.S. Department of State",
+    "source_url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html",
+    "last_verified": "2026-10-10",
+    "language": "en",
+    "tags": [
+      "scams",
+      "airport_transfer",
+      "taxi",
+      "guides",
+      "shopping",
+      "india_wide_advisory"
+    ],
+    "alerts": [
+      {
+        "id": "kolkata_scam_1",
+        "situation": "India-wide advisory: at major airports and train stations, unsolicited offers of cheap hotel transport can lead to overpriced hotel rooms or tours, long high-fee cab rides, or pressure to pay.",
+        "how_to_avoid": "Book accommodation ahead; use a prepaid taxi, a reputable app, or a known travel agent. Confirm the destination and total fare before boarding, and use the airport help counter if unsure.",
+        "fair_price_hint": "No city-wide fair fare was verified. Ask for the posted fare chart or use the meter, and confirm the total before the ride.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "kolkata_scam_2",
+        "situation": "India-wide advisory: people at stations or tourist sites may offer tickets, tours, or guiding services outside official counters or recognized agencies; such offers can result in extra charges or unwanted services.",
+        "how_to_avoid": "Buy entry tickets at the authorized counter and arrange guides through a recognized agency, hotel, or official tourism office. Verify the service and price before agreeing.",
+        "fair_price_hint": "No reliable city-wide guide price was verified. Check the official ticket rate or get the guide's full fee in writing before starting.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          },
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/foreign-travel-advice/india/safety-and-security"
+          },
+          {
+            "name": "Uttar Pradesh Police",
+            "url": "https://uppolice.gov.in/article/en/safety-tips-for-foreigners"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      },
+      {
+        "id": "kolkata_scam_3",
+        "situation": "India-wide advisory: shopping scams can involve carpets, jewellery, or gemstones that are not as represented, along with pressure to buy or deals that sound unusually good.",
+        "how_to_avoid": "Compare reputable businesses, inspect the item and its description, and do not hand over money or a card until satisfied with the purchase. Avoid transporting goods for strangers.",
+        "fair_price_hint": "No universal fair price was verified. Compare like-for-like items at reputable sellers and request an itemized receipt; avoid treating a pressured or unusually cheap offer as a benchmark.",
+        "source": [
+          {
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/india.html"
+          }
+        ],
+        "last_verified": "2026-10-10"
+      }
+    ]
+  }
+]
