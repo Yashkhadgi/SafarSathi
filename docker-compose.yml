@@ -1,0 +1,40 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: safarsathi-postgres
+    environment:
+      POSTGRES_USER: safarsathi
+      POSTGRES_PASSWORD: safarsathi_dev_password
+      POSTGRES_DB: safarsathi_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U safarsathi -d safarsathi_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  safarsathi:
+    build: .
+    container_name: safarsathi-app
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file:
+      - config/.env
+    environment:
+      DATABASE_URL: postgresql://safarsathi:safarsathi_dev_password@postgres:5432/safarsathi_db
+      GRADIO_SERVER_NAME: 0.0.0.0
+      GRADIO_SERVER_PORT: 7860
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./memory:/app/memory
+      - ./data/embeddings:/app/data/embeddings
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
