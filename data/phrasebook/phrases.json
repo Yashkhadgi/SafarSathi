@@ -1,0 +1,65 @@
+{
+  "review_status": "draft_pending_native_review",
+  "situations": {
+    "restaurant": {
+      "en-IN": ["I would like vegetarian food. Does this contain meat?", "I would like vegetarian food. Does this contain meat?"],
+      "hi-IN": ["मुझे शाकाहारी खाना चाहिए। क्या इसमें मांस है?", "Mujhe shakahari khana chahiye. Kya ismein maans hai?"],
+      "bn-IN": ["আমি নিরামিষ খাবার চাই। এতে কি মাংস আছে?", "Ami niramish khabar chai. Ete ki mangsho ache?"],
+      "ta-IN": ["எனக்கு சைவ உணவு வேண்டும். இதில் இறைச்சி உள்ளதா?", "Enakku saiva unavu vendum. Idhil iraichi ulladha?"],
+      "te-IN": ["నాకు శాకాహార ఆహారం కావాలి. ఇందులో మాంసం ఉందా?", "Naaku shaakaahaara aahaaram kaavaali. Indulo maamsam undaa?"],
+      "mr-IN": ["मला शाकाहारी जेवण हवे आहे. यात मांस आहे का?", "Mala shakahari jevan have aahe. Yat maans aahe ka?"],
+      "gu-IN": ["મને શાકાહારી ભોજન જોઈએ છે. શું આમાં માંસ છે?", "Mane shakahari bhojan joie chhe. Shu aama maans chhe?"],
+      "kn-IN": ["ನನಗೆ ಸಸ್ಯಾಹಾರಿ ಊಟ ಬೇಕು. ಇದರಲ್ಲಿ ಮಾಂಸ ಇದೆಯೇ?", "Nanage sasyahaari oota beku. Idaralli maamsa ideye?"]
+    },
+    "taxi": {
+      "en-IN": ["Please use the meter.", "Please use the meter."],
+      "hi-IN": ["कृपया मीटर चलाइए।", "Kripaya meter chalaiye."],
+      "bn-IN": ["দয়া করে মিটার চালান।", "Doya kore meter chalan."],
+      "ta-IN": ["தயவுசெய்து மீட்டரைப் பயன்படுத்துங்கள்.", "Dayavuseydhu meettarai payanpaduthungal."],
+      "te-IN": ["దయచేసి మీటర్ వేయండి.", "Dayachesi meter veyandi."],
+      "mr-IN": ["कृपया मीटर लावा.", "Krupaya meter lava."],
+      "gu-IN": ["કૃપા કરીને મીટર ચાલુ કરો.", "Krupa karine meter chalu karo."],
+      "kn-IN": ["ದಯವಿಟ್ಟು ಮೀಟರ್ ಹಾಕಿ.", "Dayavittu meter haaki."]
+    },
+    "hotel": {
+      "en-IN": ["Is there a room available?", "Is there a room available?"],
+      "hi-IN": ["क्या कोई कमरा खाली है?", "Kya koi kamra khaali hai?"],
+      "bn-IN": ["কোনো ঘর খালি আছে কি?", "Kono ghor khali ache ki?"],
+      "ta-IN": ["காலி அறை இருக்கிறதா?", "Kaali arai irukkiradha?"],
+      "te-IN": ["ఖాళీ గది ఉందా?", "Khaali gadi undaa?"],
+      "mr-IN": ["रिकामी खोली आहे का?", "Rikami kholi aahe ka?"],
+      "gu-IN": ["શું ખાલી રૂમ છે?", "Shu khali room chhe?"],
+      "kn-IN": ["ಖಾಲಿ ಕೊಠಡಿ ಇದೆಯೇ?", "Khaali kothadi ideye?"]
+    },
+    "bargaining": {
+      "en-IN": ["How much does this cost?", "How much does this cost?"],
+      "hi-IN": ["इसकी कीमत कितनी है?", "Iski keemat kitni hai?"],
+      "bn-IN": ["এটার দাম কত?", "Etar daam koto?"],
+      "ta-IN": ["இது எவ்வளவு?", "Idhu evvalavu?"],
+      "te-IN": ["దీని ధర ఎంత?", "Deeni dhara entha?"],
+      "mr-IN": ["याची किंमत किती आहे?", "Yachi kimmat kiti aahe?"],
+      "gu-IN": ["આની કિંમત કેટલી છે?", "Aani kimat ketli chhe?"],
+      "kn-IN": ["ಇದರ ಬೆಲೆ ಎಷ್ಟು?", "Idara bele eshtu?"]
+    },
+    "hospital": {
+      "en-IN": ["I need a doctor.", "I need a doctor."],
+      "hi-IN": ["मुझे डॉक्टर चाहिए।", "Mujhe doctor chahiye."],
+      "bn-IN": ["আমার একজন ডাক্তার দরকার।", "Amar ekjon daktar dorkar."],
+      "ta-IN": ["எனக்கு மருத்துவர் தேவை.", "Enakku maruthuvar thevai."],
+      "te-IN": ["నాకు డాక్టర్ కావాలి.", "Naaku doctor kaavaali."],
+      "mr-IN": ["मला डॉक्टर हवेत.", "Mala doctor havet."],
+      "gu-IN": ["મને ડૉક્ટરની જરૂર છે.", "Mane doctorni jarur chhe."],
+      "kn-IN": ["ನನಗೆ ವೈದ್ಯರು ಬೇಕು.", "Nanage vaidyru beku."]
+    },
+    "directions": {
+      "en-IN": ["Where is the railway station?", "Where is the railway station?"],
+      "hi-IN": ["रेलवे स्टेशन कहाँ है?", "Railway station kahan hai?"],
+      "bn-IN": ["রেল স্টেশন কোথায়?", "Rel station kothay?"],
+      "ta-IN": ["ரயில் நிலையம் எங்கே?", "Rayil nilayam enge?"],
+      "te-IN": ["రైల్వే స్టేషన్ ఎక్కడ ఉంది?", "Railway station ekkada undi?"],
+      "mr-IN": ["रेल्वे स्टेशन कुठे आहे?", "Railway station kuthe aahe?"],
+      "gu-IN": ["રેલવે સ્ટેશન ક્યાં છે?", "Railway station kya chhe?"],
+      "kn-IN": ["ರೈಲು ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ?", "Railu nildana ellide?"]
+    }
+  }
+}
