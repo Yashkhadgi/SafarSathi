@@ -8,7 +8,7 @@ from config.settings import TAVILY_API_KEY
 client = TavilyClient(api_key=TAVILY_API_KEY) if TAVILY_API_KEY else None
 
 
-def search_facts(query: str) -> str:
+def _search_facts_uncached(query: str) -> str:
     try:
         if not client:
             print("Warning: Tavily client is not initialized (TAVILY_API_KEY not set).")
@@ -30,6 +30,13 @@ def search_facts(query: str) -> str:
     except Exception as e:
         print(f"Warning: Tavily search failed: {e}")
         return ""
+
+
+def search_facts(query: str) -> str:
+    from memory.cache import cached_call
+
+    return cached_call("tavily_facts", [query], 6 * 3600,
+                       lambda: _search_facts_uncached(query))
 
 
 if __name__ == "__main__":
