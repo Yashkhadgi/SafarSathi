@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { PublicLayout } from './components/layout/PublicLayout';
+import { AppLayout } from './components/layout/AppLayout';
 import { LandingPage } from './pages/LandingPage';
 import { LoginPage } from './pages/LoginPage';
 import { SignupPage } from './pages/SignupPage';
@@ -12,7 +13,26 @@ import { ResetPasswordPage } from './pages/ResetPasswordPage';
 import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
 import { TermsPage } from './pages/TermsPage';
 import { NotFoundPage } from './pages/NotFoundPage';
-import { Loader2, MessageSquare, LogOut, Compass } from 'lucide-react';
+
+// Authenticated P0 and P1 Pages
+import { ChatPage } from './pages/ChatPage';
+import { ItineraryPage } from './pages/ItineraryPage';
+import { BudgetPage } from './pages/BudgetPage';
+import { TransportPage } from './pages/TransportPage';
+import { ContactsPage } from './pages/ContactsPage';
+import { SettingsPage } from './pages/SettingsPage';
+import { ProfilePage } from './pages/ProfilePage';
+import { SavedTripsPage } from './pages/SavedTripsPage';
+import { WeatherHoursNearMePage } from './pages/WeatherHoursNearMePage';
+import { PhrasebookPage } from './pages/PhrasebookPage';
+import { SafetyGuidePage } from './pages/SafetyGuidePage';
+import { FairPricingPage } from './pages/FairPricingPage';
+import { TransportStayPage } from './pages/TransportStayPage';
+import { CultureFoodPage } from './pages/CultureFoodPage';
+import { PlanningOptimizerPage } from './pages/PlanningOptimizerPage';
+import { ChecklistsPage } from './pages/ChecklistsPage';
+import { ExportPage } from './pages/ExportPage';
+import { Loader2 } from 'lucide-react';
 
 const queryClient = new QueryClient();
 
@@ -35,50 +55,13 @@ const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) =
   return <>{children}</>;
 };
 
-// Simple App Shell Placeholder for F4 (expanded in F5)
-const AppShellPlaceholder: React.FC = () => {
-  const { user, logout } = useAuth();
-
-  return (
-    <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100">
-      <header className="h-14 border-b border-slate-800 bg-slate-900 px-4 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-md bg-brand-600 flex items-center justify-center text-white">
-            <Compass className="w-4 h-4" />
-          </div>
-          <span className="font-semibold text-sm">SafarSathi Assistant</span>
-        </div>
-        <div className="flex items-center gap-4 text-xs">
-          <span className="text-slate-400">{user?.email}</span>
-          <button
-            onClick={() => logout()}
-            className="flex items-center gap-1 px-2.5 py-1 rounded-md border border-slate-700 hover:bg-slate-800 text-slate-300 transition-colors cursor-pointer"
-          >
-            <LogOut className="w-3.5 h-3.5" />
-            <span>Log out</span>
-          </button>
-        </div>
-      </header>
-      <main className="flex-1 max-w-4xl mx-auto w-full p-6 flex flex-col items-center justify-center text-center">
-        <div className="w-12 h-12 rounded-md bg-brand-950 border border-brand-800 text-brand-400 flex items-center justify-center mb-4">
-          <MessageSquare className="w-6 h-6" />
-        </div>
-        <h1 className="text-xl font-bold text-white">Welcome, {user?.email}</h1>
-        <p className="mt-2 text-xs text-slate-400 max-w-md">
-          Authentication and account foundation initialized. Chat stream, trip planner, and offline emergency hub are connected in the upcoming Step F5.
-        </p>
-      </main>
-    </div>
-  );
-};
-
 export const App: React.FC = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <AuthProvider>
         <BrowserRouter>
           <Routes>
-            {/* Public Layout Routes */}
+            {/* Public Routes */}
             <Route element={<PublicLayout />}>
               <Route path="/" element={<LandingPage />} />
               <Route path="/login" element={<LoginPage />} />
@@ -88,18 +71,183 @@ export const App: React.FC = () => {
               <Route path="/reset-password" element={<ResetPasswordPage />} />
               <Route path="/privacy" element={<PrivacyPolicyPage />} />
               <Route path="/terms" element={<TermsPage />} />
-              <Route path="*" element={<NotFoundPage />} />
+              <Route path="/404" element={<NotFoundPage />} />
             </Route>
 
-            {/* Authenticated Routes */}
+            {/* Authenticated Routes with App Layout */}
             <Route
-              path="/app/*"
+              path="/app"
               element={
                 <ProtectedRoute>
-                  <AppShellPlaceholder />
+                  <AppLayout>
+                    <ChatPage />
+                  </AppLayout>
                 </ProtectedRoute>
               }
             />
+            <Route
+              path="/app/itinerary"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <ItineraryPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/budget"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <BudgetPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/transport"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <TransportPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/contacts"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <ContactsPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/settings"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <SettingsPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/profile"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <ProfilePage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/trips"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <SavedTripsPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/realtime"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <WeatherHoursNearMePage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/phrasebook"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <PhrasebookPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/safety"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <SafetyGuidePage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/fair-prices"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <FairPricingPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/transit-stay"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <TransportStayPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/culture"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <CultureFoodPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/planner"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <PlanningOptimizerPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/checklists"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <ChecklistsPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/app/export"
+              element={
+                <ProtectedRoute>
+                  <AppLayout>
+                    <ExportPage />
+                  </AppLayout>
+                </ProtectedRoute>
+              }
+            />
+
+            {/* Catch-all 404 */}
+            <Route path="*" element={<Navigate to="/404" replace />} />
           </Routes>
         </BrowserRouter>
       </AuthProvider>

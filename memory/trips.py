@@ -207,3 +207,16 @@ def duplicate_trip(trip_id, user_id, session_id=None):
             return save_new_trip(target_session, data, title=row["title"] + " copy")
     except Exception as exc:
         return {"error": str(exc)}
+
+
+def trip_versions(trip_id, session_id=None):
+    try:
+        with _connect() as conn:
+            rows = conn.execute(
+                "SELECT version, change_summary, created_at FROM trip_versions WHERE trip_id = ? ORDER BY version ASC",
+                (trip_id,),
+            ).fetchall()
+            return [{"version": r["version"], "summary": r["change_summary"], "created_at": r["created_at"]} for r in rows]
+    except Exception:
+        return []
+
