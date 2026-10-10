@@ -1,15 +1,13 @@
-gradio==4.44.1
-huggingface_hub==0.25.2
-pydantic<2.10.0
-fastapi<0.113.0
-anthropic
-langgraph
-langchain
+# Python 3.11 runtime dependencies. Keep in sync with the tested environment.
+anthropic==0.125.0
 chromadb==1.5.9
-requests==2.32.5
-python-dotenv
-sqlalchemy
+fastapi==0.112.4
 googlemaps==4.10.0
+gradio==4.44.1
+huggingface-hub==0.25.2
+langgraph==0.6.11
 onnxruntime==1.19.2
-requests-oauthlib==2.0.0
+pydantic==2.9.2
+python-dotenv==1.2.1
+requests==2.32.5
 tavily-python==0.8.1

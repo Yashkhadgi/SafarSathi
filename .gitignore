@@ -10,14 +10,20 @@ config/.env
 config/.env.*
 !config/.env.example
 
-# Virtual environment
+# Virtual environment & Dependencies
 venv/
 env/
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
 
 # Data, Logs & Databases
+data/chroma_db/
 data/embeddings/
 logs/
 memory/sessions.db
+memory/safarsathi_v2.db
+memory/live_audio/
 *.db
 *.sqlite3
-

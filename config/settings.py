@@ -8,11 +8,11 @@ load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
 # Model assignments per agent
-ORCHESTRATOR_MODEL = os.getenv("ORCHESTRATOR_MODEL", "claude-sonnet-4-5")
-PLANNER_MODEL = os.getenv("PLANNER_MODEL", "claude-sonnet-4-5")
-RAG_MODEL = os.getenv("RAG_MODEL", "claude-haiku-4-5")
-SAFETY_MODEL = os.getenv("SAFETY_MODEL", "claude-haiku-4-5")
-ETIQUETTE_MODEL = os.getenv("ETIQUETTE_MODEL", "claude-haiku-4-5")
+ORCHESTRATOR_MODEL = os.getenv("ORCHESTRATOR_MODEL") or "claude-sonnet-5-5"
+PLANNER_MODEL = os.getenv("PLANNER_MODEL") or "claude-sonnet-5-5"
+RAG_MODEL = os.getenv("RAG_MODEL") or "claude-haiku-5-5"
+SAFETY_MODEL = os.getenv("SAFETY_MODEL") or "claude-haiku-5-5"
+ETIQUETTE_MODEL = os.getenv("ETIQUETTE_MODEL") or "claude-haiku-5-5"
 
 # Other APIs (add as you get keys)
 GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
@@ -21,6 +21,7 @@ EXCHANGE_RATE_API_KEY = os.getenv("EXCHANGE_RATE_API_KEY")
 BHASHINI_API_KEY = os.getenv("BHASHINI_API_KEY")
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 SARVAM_API_KEY = os.getenv("SARVAM_API_KEY")
+USE_TOOL_AGENT = os.getenv("USE_TOOL_AGENT", "false").strip().lower() == "true"
 
 
 def validate_config():
