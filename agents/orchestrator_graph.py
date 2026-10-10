@@ -6,12 +6,25 @@ from typing import TypedDict, Literal
 from langgraph.graph import StateGraph, END
 
 from tools.llm_wrapper import call_llm
-from config.settings import ORCHESTRATOR_MODEL
+from config.settings import ORCHESTRATOR_MODEL, USE_TOOL_AGENT
 from agents.planner_agent import run_planner_agent
 from agents.rag_agent import run_rag_agent
 from agents.safety_agent import run_safety_agent
 from agents.etiquette_agent import run_etiquette_agent
 from memory.session_memory import save_turn, format_history
+from agents.guardrails import post_process_answer
+from agents.rag_agent import retrieve
+from agents.scam_alerts import auto_attach_scam_alerts
+from agents.language_agent import run_language_pipeline
+from memory.language_preferences import get_session_preferences, save_session_preferences
+from memory.profiles import profile_summary, save_from_chat
+
+
+def _history_with_profile(session_id):
+    user_id = session_id.split(":", 1)[0]
+    summary = profile_summary(user_id)
+    history = format_history(session_id)
+    return (f"Traveler preferences: {summary}. Honor diet, allergies and mobility.\n" if summary else "") + history
 
 
 # Define the shared state that flows through the graph
@@ -61,7 +74,7 @@ def classify_node(state: AgentState) -> AgentState:
 
 # Node 2: Planner agent
 def planner_node(state: AgentState) -> AgentState:
-    history = format_history(state["session_id"])
+    history = _history_with_profile(state["session_id"])
     state["response"] = run_planner_agent(state["user_message"], history=history)
     state["agent_used"] = "Planner Agent"
     return state
@@ -69,7 +82,7 @@ def planner_node(state: AgentState) -> AgentState:
 
 # Node 3: RAG/Info agent
 def rag_node(state: AgentState) -> AgentState:
-    history = format_history(state["session_id"])
+    history = _history_with_profile(state["session_id"])
     state["response"] = run_rag_agent(state["user_message"], history=history)
     state["agent_used"] = "Info/RAG Agent"
     return state
@@ -77,7 +90,7 @@ def rag_node(state: AgentState) -> AgentState:
 
 # Node 4: Safety/Emergency agent
 def safety_node(state: AgentState) -> AgentState:
-    history = format_history(state["session_id"])
+    history = _history_with_profile(state["session_id"])
     state["response"] = run_safety_agent(state["user_message"], history=history)
     state["agent_used"] = "Safety Agent"
     return state
@@ -85,7 +98,7 @@ def safety_node(state: AgentState) -> AgentState:
 
 # Node 5: Cultural Etiquette agent
 def etiquette_node(state: AgentState) -> AgentState:
-    history = format_history(state["session_id"])
+    history = _history_with_profile(state["session_id"])
     state["response"] = run_etiquette_agent(state["user_message"], history=history)
     state["agent_used"] = "Etiquette Agent"
     return state
@@ -131,9 +144,7 @@ def build_graph():
 tourist_agent_graph = build_graph()
 
 
-def run_agent(session_id: str, user_message: str):
-    save_turn(session_id, "user", user_message)
-
+def _run_core_agent(session_id: str, user_message: str):
     initial_state = {
         "session_id": session_id,
         "user_message": user_message,
@@ -143,8 +154,66 @@ def run_agent(session_id: str, user_message: str):
     }
     final_state = tourist_agent_graph.invoke(initial_state)
 
-    save_turn(session_id, "assistant", final_state["response"])
+    context = ""
+    if final_state.get("intent") == "info":
+        try:
+            context = "\n\n".join(
+                record["text"]
+                for record in retrieve(user_message).get("records", [])
+                if record.get("text")
+            )
+        except Exception:
+            context = ""
+
+    final_state["response"] = post_process_answer(
+        final_state["response"], user_message=user_message, context=context
+    )
+    final_state["response"] = auto_attach_scam_alerts(
+        final_state["response"], user_message=user_message
+    )
     return final_state["agent_used"], final_state["response"]
+
+
+def run_agent(session_id: str, user_message: str, language_override=None, show_english=None):
+    preferences = get_session_preferences(session_id)
+    language_override = language_override or preferences["language_code"]
+    show_english = preferences["show_english"] if show_english is None else bool(show_english)
+    save_turn(session_id, "user", user_message)
+    save_from_chat(session_id.split(":", 1)[0], user_message)
+
+    agent_used = "Tourist Assistant"
+    def core_agent(normalized_message):
+        nonlocal agent_used
+        if USE_TOOL_AGENT:
+            from agents.core_agent import run_core_agent
+
+            result = run_core_agent(session_id, normalized_message)
+            agent_used = "Tool Agent"
+            response = post_process_answer(
+                result["answer"], user_message=normalized_message,
+                tool_results=result["tool_results"],
+            )
+            response = auto_attach_scam_alerts(response, user_message=normalized_message)
+            tools_used = list(dict.fromkeys(result["tools_used"]))
+            return response + ("\n\nUsed: " + ", ".join(tools_used) if tools_used else "")
+        agent_used, response = _run_core_agent(session_id, normalized_message)
+        return response
+
+    response, language = run_language_pipeline(
+        user_message,
+        core_agent,
+        preference=language_override,
+        show_english=show_english,
+        previous_language=preferences["detected_language"],
+    )
+    save_session_preferences(
+        session_id,
+        language_code=preferences["language_code"] if language_override is None else language_override,
+        detected_language=language,
+        show_english=show_english,
+    )
+    save_turn(session_id, "assistant", response)
+    return agent_used, response
 
 
 if __name__ == "__main__":
