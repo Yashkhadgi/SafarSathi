@@ -1,0 +1,15 @@
+gradio==4.44.1
+huggingface_hub==0.25.2
+pydantic<2.10.0
+fastapi<0.113.0
+anthropic
+langgraph
+langchain
+chromadb==1.5.9
+requests==2.32.5
+python-dotenv
+sqlalchemy
+googlemaps==4.10.0
+onnxruntime==1.19.2
+requests-oauthlib==2.0.0
+tavily-python==0.8.1

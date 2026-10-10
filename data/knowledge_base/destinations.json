@@ -1,0 +1,44 @@
+[
+  {
+    "id": "jaipur_hawa_mahal",
+    "place": "Jaipur",
+    "category": "monument",
+    "text": "Hawa Mahal, the Palace of Winds, was built in 1799 by Maharaja Sawai Pratap Singh. Its honeycomb facade has 953 small windows (jharokhas) designed to let royal women observe street festivals without being seen, following purdah customs. Best visited early morning for the light on the pink sandstone facade."
+  },
+  {
+    "id": "jaipur_amber_fort",
+    "place": "Jaipur",
+    "category": "monument",
+    "text": "Amber Fort, built in 1592 by Raja Man Singh I, sits on a hill overlooking Maota Lake. Known for the Sheesh Mahal (Mirror Palace), where a single candle reflects into thousands of points across mirrored walls. Elephant rides up the ramp are available but ethically discouraged now; jeep or walking is preferred."
+  },
+  {
+    "id": "udaipur_lake_pichola",
+    "place": "Udaipur",
+    "category": "culture",
+    "text": "Udaipur is called the City of Lakes, built around Lake Pichola since 1362. The City Palace complex sits on its eastern bank. Boat rides at sunset to Jag Mandir island are a signature experience. The city is known for Mewar culture, miniature paintings, and being a former Rajput kingdom capital."
+  },
+  {
+    "id": "mumbai_gateway_of_india",
+    "place": "Mumbai",
+    "category": "monument",
+    "text": "The Gateway of India was built in 1924 to commemorate the 1911 visit of King George V and Queen Mary. It overlooks the Arabian Sea and is the departure point for ferries to Elephanta Caves, a UNESCO World Heritage site with 1st-millennium rock-cut Shiva temples."
+  },
+  {
+    "id": "mumbai_food_culture",
+    "place": "Mumbai",
+    "category": "food",
+    "text": "Mumbai street food is iconic: vada pav (spiced potato fritter in a bun), pav bhaji, and bhel puri are must-tries. Mohammed Ali Road becomes a major street food hub during Ramadan evenings. Irani cafes like Kyani & Co. serve bun maska and Irani chai, a colonial-era Parsi tradition."
+  },
+  {
+    "id": "goa_etiquette",
+    "place": "Goa",
+    "category": "etiquette",
+    "text": "Goa blends Portuguese Catholic and Indian Hindu heritage. Beachwear is fine on beaches but modest clothing is expected when visiting churches like Basilica of Bom Jesus or temples like Shri Mangeshi. Many beach shacks and markets expect cash; bargaining is normal in flea markets like Anjuna but not in fixed-price stores."
+  },
+  {
+    "id": "varanasi_ganga_aarti",
+    "place": "Varanasi",
+    "category": "culture",
+    "text": "Varanasi, one of the world's oldest continuously inhabited cities, is central to Hindu pilgrimage on the Ganges. The Ganga Aarti at Dashashwamedh Ghat every evening is a major ritual with fire lamps, chanting, and music. Visitors should dress modestly and ask permission before photographing cremation ghats like Manikarnika, which are sacred, not tourist spectacles."
+  }
+]

@@ -1,0 +1,23 @@
+*.pyc
+__pycache__/
+.DS_Store
+
+# Environment & API keys (Never commit)
+.env
+.env.*
+!.env.example
+config/.env
+config/.env.*
+!config/.env.example
+
+# Virtual environment
+venv/
+env/
+
+# Data, Logs & Databases
+data/embeddings/
+logs/
+memory/sessions.db
+*.db
+*.sqlite3
+
