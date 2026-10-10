@@ -100,17 +100,18 @@ export const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
 
       {/* Main Content Area */}
       <main className="flex-1 flex flex-col min-w-0 overflow-y-auto">
-        {/* Top Emergency Notice Bar */}
+        {/* Top Factual Notice Bar */}
         <div className="bg-slate-900 border-b border-slate-800 text-[11px] px-6 py-2 flex items-center justify-between text-slate-400">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
-            <span>All travel data verified with source dates. Zero commercial commissions.</span>
+            <span>Answers show sources and last-verified dates.</span>
           </div>
           <div className="flex items-center gap-4">
             <span>National Emergency: <strong className="text-slate-200">112</strong></span>
             <span>Ambulance: <strong className="text-slate-200">108</strong></span>
           </div>
         </div>
+
 
         {/* Page Content */}
         <div className="flex-1 p-6 max-w-6xl w-full mx-auto">

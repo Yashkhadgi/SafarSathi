@@ -74,73 +74,13 @@ export const App: React.FC = () => {
               <Route path="/404" element={<NotFoundPage />} />
             </Route>
 
-            {/* Authenticated Routes with App Layout */}
+            {/* Authenticated Chat-First Routes */}
             <Route
               path="/app"
               element={
                 <ProtectedRoute>
                   <AppLayout>
                     <ChatPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/itinerary"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <ItineraryPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/budget"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <BudgetPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/transport"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <TransportPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/contacts"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <ContactsPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/settings"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <SettingsPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/profile"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <ProfilePage />
                   </AppLayout>
                 </ProtectedRoute>
               }
@@ -156,98 +96,35 @@ export const App: React.FC = () => {
               }
             />
             <Route
-              path="/app/realtime"
+              path="/app/settings"
               element={
                 <ProtectedRoute>
                   <AppLayout>
-                    <WeatherHoursNearMePage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/phrasebook"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <PhrasebookPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/safety"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <SafetyGuidePage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/fair-prices"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <FairPricingPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/transit-stay"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <TransportStayPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/culture"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <CultureFoodPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/planner"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <PlanningOptimizerPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/checklists"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <ChecklistsPage />
-                  </AppLayout>
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/app/export"
-              element={
-                <ProtectedRoute>
-                  <AppLayout>
-                    <ExportPage />
+                    <SettingsPage />
                   </AppLayout>
                 </ProtectedRoute>
               }
             />
 
+            {/* Legacy tool routes redirected to Chat / Settings */}
+            <Route path="/app/itinerary" element={<Navigate to="/app" replace />} />
+            <Route path="/app/budget" element={<Navigate to="/app" replace />} />
+            <Route path="/app/transport" element={<Navigate to="/app" replace />} />
+            <Route path="/app/realtime" element={<Navigate to="/app" replace />} />
+            <Route path="/app/phrasebook" element={<Navigate to="/app" replace />} />
+            <Route path="/app/safety" element={<Navigate to="/app" replace />} />
+            <Route path="/app/fair-prices" element={<Navigate to="/app" replace />} />
+            <Route path="/app/transit-stay" element={<Navigate to="/app" replace />} />
+            <Route path="/app/culture" element={<Navigate to="/app" replace />} />
+            <Route path="/app/planner" element={<Navigate to="/app" replace />} />
+            <Route path="/app/checklists" element={<Navigate to="/app" replace />} />
+            <Route path="/app/export" element={<Navigate to="/app" replace />} />
+            <Route path="/app/contacts" element={<Navigate to="/app/settings" replace />} />
+            <Route path="/app/profile" element={<Navigate to="/app/settings" replace />} />
+
             {/* Catch-all 404 */}
             <Route path="*" element={<Navigate to="/404" replace />} />
+
           </Routes>
         </BrowserRouter>
       </AuthProvider>
