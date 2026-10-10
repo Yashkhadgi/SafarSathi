@@ -33,23 +33,9 @@ export const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
   const [sosModalOpen, setSosModalOpen] = useState(false);
 
   const navItems = [
-    { label: 'Chat Assistant', path: '/app', icon: MessageSquare },
-    { label: 'Itinerary Planner', path: '/app/itinerary', icon: Calendar },
-    { label: 'Budget Calculator', path: '/app/budget', icon: DollarSign },
-    { label: 'How to Reach', path: '/app/transport', icon: Navigation },
-    { label: 'Weather & Near Me', path: '/app/realtime', icon: CloudSun },
-    { label: 'Safety & Emergency', path: '/app/safety', icon: ShieldAlert },
-    { label: 'Phrasebook & Audio', path: '/app/phrasebook', icon: BookOpen },
-    { label: 'Fair Prices & Fees', path: '/app/fair-prices', icon: DollarSign },
-    { label: 'Transport & Stay', path: '/app/transit-stay', icon: MapPin },
-    { label: 'Food & Culture', path: '/app/culture', icon: Compass },
-    { label: 'Optimizer & Planner', path: '/app/planner', icon: Compass },
-    { label: 'Smart Checklists', path: '/app/checklists', icon: Luggage },
+    { label: 'Travel Assistant', path: '/app', icon: MessageSquare },
     { label: 'Saved Trips', path: '/app/trips', icon: Bookmark },
-    { label: 'Export Itinerary', path: '/app/export', icon: FileDown },
-    { label: 'Trusted Contacts', path: '/app/contacts', icon: Users },
-    { label: 'Traveler Profile', path: '/app/profile', icon: Users },
-    { label: 'Settings', path: '/app/settings', icon: Settings },
+    { label: 'Settings & Profile', path: '/app/settings', icon: Settings },
   ];
 
   return (
@@ -68,15 +54,15 @@ export const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
         </div>
 
         {/* Navigation Links */}
-        <nav className="flex-1 overflow-y-auto px-3 py-4 space-y-1">
+        <nav className="flex-1 overflow-y-auto px-3 py-4 space-y-1.5">
           {navItems.map((item) => {
             const Icon = item.icon;
-            const active = location.pathname === item.path;
+            const active = location.pathname === item.path || (item.path === '/app' && location.pathname === '/');
             return (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`flex items-center gap-3 px-3 py-2 rounded-md text-xs font-medium transition-colors ${
+                className={`flex items-center gap-3 px-3.5 py-2.5 rounded-md text-xs font-medium transition-colors ${
                   active
                     ? 'bg-brand-600 text-white'
                     : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
